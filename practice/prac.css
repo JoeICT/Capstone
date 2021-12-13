@@ -1,0 +1,111 @@
+
+/*header*/
+.flexbox {
+  display:flex;
+}
+
+header {
+
+background-image: url("greyback.jpg");
+max-height: 290px;
+
+    }
+
+.navbar {
+    text-align: center;
+    text-shadow: 2px 2px 5px black ;
+    font-size: 20px;
+
+    }
+
+
+
+
+
+.flexbox-container {
+  display:flex;
+justify-content: center;
+}
+
+.flexbox-item-0{
+  width: 200px;
+  margin: 5px;
+border: 3px solid #333;
+background-color: rgb(0, 0, 0);
+}
+
+.flexbox-item-3 {
+-ms-flex-align: center;
+border: 3px solid #333;
+text-align: center;
+margin-top: 30px;;
+padding-top: 20px;
+min-height: 300px;
+background-image:url(greyback.jpg);
+color:rgb(255, 255, 255);
+
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+.flexbox-container-2 {
+  display:flex;
+  height:300px;
+  flex-grow: 2;
+
+
+
+}
+.headline {
+  text-align:center;
+  color:white;
+  font-family: font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 5px #dfdfdf;
+  font-size: 200%;
+  padding-left: 180px;
+  padding-right: 440px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 4.5px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: transparent;
+  color: white;
+}
