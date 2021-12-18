@@ -31,19 +31,24 @@ header {
 justify-content: center;
 }
 
-.flexbox-item {
+.flexbox-item-0 {
+align-content: left;
 width: 200px;
 margin: 10px;
 border: 3px solid #333;
 background-color: #dfdfdf;
 
 }
-
 .flexbox-item-3 {
+  -ms-flex-align: center;
+  border: 3px solid #333;
+  text-align: center;
+  margin-top: 30px;;
+  padding-top: 20px;
   min-height: 300px;
-  flex-grow: 2;
-  width: 1500px;
-  padding-left: 380px;
+  background-image:url(greyback.jpg);
+  color:rgb(255, 255, 255);
+
 }
 
 body {
@@ -58,14 +63,13 @@ body {
 
 }
 .headline {
-  text-align:justify;
+  text-align:center;
   color:white;
   font-family: font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 5px #dfdfdf;
   font-size: 200%;
   padding: 30px;
-  padding-left: 150px;
-  padding-right: 440px;
+
 }
 
 

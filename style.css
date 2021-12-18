@@ -45,6 +45,17 @@ background-image:url(greyback.jpg);
 color:rgb(255, 255, 255);
 
 }
+.flexbox-item-4 {
+  -ms-flex-align: center;
+  border: 3px solid #333;
+  text-align: center;
+  margin-top: 30px;;
+  padding-top: 20px;
+  min-height: 300px;
+  background-image:url(greyback.jpg);
+  color:rgb(255, 255, 255);
+
+  }
 
 body {
   background-color: rgb(255, 255, 255);
@@ -113,4 +124,15 @@ body {
 footer {
   display: flex;
   justify-content: center;
+}
+/* sqft calculator */
+label {
+  font-size:14px;
+  margin-right:10px;
+  font-weight:700;
+}
+
+input,
+#total{
+  margin-bottom:15px;
 }
