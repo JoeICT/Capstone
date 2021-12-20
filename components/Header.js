@@ -8,10 +8,10 @@ export default () => html`
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <!-- Top Navigation Menu -->
+    <!-- Top Navigation -->
     <div class="topnav">
       <a href="#home" class="active"></a>
-      <!-- Navigation links (hidden by default) -->
+      <!-- Navigation links -->
       <div id="myLinks">
         <a href="#resources">Resources</a>
         <a href="#contact">Contact</a>
@@ -19,7 +19,7 @@ export default () => html`
         <a href="#price.html">Price Your Job</a>
         <a href="#findcont.html">Find A Contractor</a>
       </div>
-      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <!-- "Hamburger menu"-->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
