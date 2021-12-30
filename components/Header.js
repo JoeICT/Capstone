@@ -1,4 +1,6 @@
 import html from "html-literal";
+// eslint-disable-next-line prettier/prettier
+import logo from "../assets/image/new1.jpg";
 
 export default () => html`
   <header>
@@ -26,7 +28,7 @@ export default () => html`
 
     <div class="flexbox-container">
       <div class="flexbox-item flexbox-item-0">
-        <img src="new1.jpg" alt="logo" />
+        <img src="${logo}" />
       </div>
 
       <div class="headline">
