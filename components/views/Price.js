@@ -2,8 +2,6 @@ import html from "html-literal";
 
 export default () => html`
 
-</div>
-
 <div class="width_wrapper">
   <h3>Width</h3>
 
