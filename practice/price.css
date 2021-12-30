@@ -5,18 +5,22 @@
 }
 
 header {
-
-background-image: url("greyback.jpg");
-max-height: 290px;
-
-    }
+  background-color: black;
+}
 
 .navbar {
-    text-align: center;
-    text-shadow: 2px 2px 5px black ;
-    font-size: 20px;
 
-    }
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom:0;
+    text-align: center;
+
+}
 
 
 
@@ -27,25 +31,15 @@ max-height: 290px;
 justify-content: center;
 }
 
-.flexbox-item-0{
-  width: 200px;
-  margin: 5px;
+.flexbox-item-0 {
+align-content: left;
+width: 200px;
+margin: 10px;
 border: 3px solid #333;
-background-color: rgb(0, 0, 0);
-}
+background-color: #dfdfdf;
 
+}
 .flexbox-item-3 {
--ms-flex-align: center;
-border: 3px solid #333;
-text-align: center;
-margin-top: 30px;;
-padding-top: 20px;
-min-height: 300px;
-background-image:url(greyback.jpg);
-color:rgb(255, 255, 255);
-
-}
-.flexbox-item-4 {
   -ms-flex-align: center;
   border: 3px solid #333;
   text-align: center;
@@ -55,7 +49,7 @@ color:rgb(255, 255, 255);
   background-image:url(greyback.jpg);
   color:rgb(255, 255, 255);
 
-  }
+}
 
 body {
   background-color: rgb(255, 255, 255);
@@ -71,12 +65,13 @@ body {
 .headline {
   text-align:center;
   color:white;
-  font-family: font-family 'Montserrat', sans-serif;
+  font-family: font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 5px #dfdfdf;
   font-size: 200%;
-  padding-left: 180px;
-  padding-right: 440px;
+  padding: 30px;
+
 }
+
 
 /* Style the navigation menu */
 .topnav {
@@ -119,11 +114,6 @@ body {
 .active {
   background-color: transparent;
   color: white;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
 }
 /* sqft calculator */
 label {
