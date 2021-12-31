@@ -13,13 +13,17 @@ export default () => html`
     <div class="topnav">
       <a href="#home" class="active"></a>
       <!-- Navigation links -->
+
       <div id="myLinks">
         <a href="#resources">Resources</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
         <a href="#price.html">Price Your Job</a>
-        <a href="#findcont.html">Find A Contractor</a>
+        <a href="#find.html">Find A Contractor</a>
+
+        <div class="flexbox-item flexbox-item-3"></div>
       </div>
+
       <!-- "Hamburger menu"-->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
