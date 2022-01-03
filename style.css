@@ -346,4 +346,25 @@ text-align: center;
 background-color: grey;
 }
 
+/* Login page  */
 
+
+.flexbox-login {
+  text-align: center;
+  padding-bottom: 40px;
+  }
+.logheader {
+  padding-bottom: 40px;
+text-align: center;
+}
+.loginbody {
+background-image: url("painter.jpeg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-color: lightgrey;
+padding-bottom: 70px;
+}
+.flexbox-login > .button1 {
+  padding-bottom: 220px;
+}
