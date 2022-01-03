@@ -306,3 +306,44 @@ body {
 .center {
 	text-align: center;
 }
+
+#res1 {
+  text-align: center;
+  color: grey;
+}
+#res2 {
+  text-align: center;
+  color: grey;
+}
+#res3 {
+  text-align: center;
+  color: grey;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27, 27, 27);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 30px;
+  padding: 20px;
+  font-size: 30px;
+}
+/* This is for the resources page  */
+
+.reshead {
+  text-align: center;
+}
+
+.FORM {
+text-align: center;
+background-color: grey;
+}
+.contact {
+text-align: center;
+background-color: grey;
+}
+
+

@@ -21,7 +21,7 @@
 //   }
 // }
 
-// // sqft calculator
+// // sqft calculator1
 // $(document).ready(function() {
 //   $("#calculate").on("click", function() {
 //     var v1 = $("#length_feet").val();
