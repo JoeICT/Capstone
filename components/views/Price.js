@@ -42,5 +42,11 @@ Enter the length (in feet), width (in feet), and cost per square feet for the pr
 
 </div>
 
+<div class="costbystate">
+  <h3> This is the average cost per square foot for painting by each state. </h3>
+  <h6>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work. But this will give you a good idea of what your job should cost</h6>
+  Alabama, Alaska, Arizona, Arkansas, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Main, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming
+</div>
+
 </body>
 `;
