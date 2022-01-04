@@ -73,6 +73,7 @@ export default () => html`
 `;
 
 // <!-- javascript for calendar -->
+
 //   var themonth = 1; renderCal(themonth); $('.minusmonth').click(function(){
 //   themonth += -1; renderCal(themonth); }); $('.addmonth').click(function(){
 //   themonth += 1; renderCal(themonth); }); function renderCal(themonth){
@@ -106,7 +107,7 @@ export default () => html`
 //   for(i=parseInt(min);i<parseInt(max);i++){ $('.calendar
 //   li:nth-of-type('+(i+7+fDay-1)+')').addClass('red'); } } }); }
 
-//this is the javascript for cascade drop down menus
+// this is the javascript for cascade drop down menus
 // var subjectObject = {
 //   "Front-end": {
 //     HTML: ["Links", "Images", "Tables", "Lists"],
@@ -143,4 +144,4 @@ export default () => html`
 //       chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
 //     }
 //   };
-// };
+// }

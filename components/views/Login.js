@@ -1,6 +1,6 @@
 import html from "html-literal";
 
-export default st => html`
+export default () => html`
 <div class = "loginbody">
   <div class="logheader"><h1>
     Welcome to the honest contractor page. Your pre-requisite to hiring a

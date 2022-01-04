@@ -74,8 +74,10 @@ body {
   font-family: font-family 'Montserrat', sans-serif;
   text-shadow: 2px 2px 5px #dfdfdf;
   font-size: 200%;
-  padding-left: 180px;
+  padding-left: 230px;
   padding-right: 440px;
+  padding-top:40px;
+
 }
 
 /* Style the navigation menu */
@@ -152,8 +154,8 @@ input,
   line-height: 22px !important;
 }
 dropdown{
-   display: inline-block;
-   margin: 20px 50px;
+  display: inline-block;
+  margin: 20px 50px;
 }
 dropdown label, dropdown ul li{
   display: block;
@@ -306,18 +308,19 @@ body {
 .center {
 	text-align: center;
 }
-
+/* resources page  */
 #res1 {
+
   text-align: center;
-  color: grey;
+  color: rgb(12, 12, 12);
 }
 #res2 {
   text-align: center;
-  color: grey;
+  color: rgb(12, 12, 12);
 }
 #res3 {
   text-align: center;
-  color: grey;
+  color: rgb(12, 12, 12);
 }
 .flex-container {
   display: flex;
