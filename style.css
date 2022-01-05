@@ -354,3 +354,25 @@ padding-bottom: 70px;
   text-shadow: 2px 2px grey;
 
 }
+.welcomegreeting {
+  text-align: center;
+  text-shadow: 2px 2px grey;
+}
+/* contracotor page */
+
+.cont-page {
+  text-align: center;
+}
+
+.cont-info {
+text-align: center;
+text-shadow: 2px 2px grey;
+padding-bottom: 50px;
+
+}
+
+.cont-body {
+  text-align: center;
+}
+
+
