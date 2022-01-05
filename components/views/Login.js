@@ -5,8 +5,7 @@ export default () => html`
   <div class="logheader"><h1>
     Welcome to the honest contractor page. Your pre-requisite to hiring a
     contractor or seeking work.<br>
-    please click below to be redirected to the
-    homeowner side of the webpage or the contractor section.
+    Are you a Homeowner or a Contractor?
     </h1>
   </div>
   <div class="flexbox-login">

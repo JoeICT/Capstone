@@ -17,6 +17,7 @@ export default () => html`
           Learn what to watch out for and hopefully avoid by reading some of these stories from customers who had bad experiences with the contractor that they hired.
         </h6>
         </p>
+
       </div>
       <div id="res3">Red Flags
         <p><h6>
