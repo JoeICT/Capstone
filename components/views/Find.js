@@ -2,6 +2,7 @@ import html from "html-literal";
 
 export default () => html`
   <div class="findpage">
+    <div class="findcontractor"><h1>Find A Contractor In Your Area</h1></div>
     <!-- city and state find menu -->
     <form name="form1" id="form1" action="/action_page.php">
       City & State:

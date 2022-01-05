@@ -346,4 +346,11 @@ padding-bottom: 70px;
 .findpage {
   text-align: center;
 }
+.findcontractor {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px grey;
 
+}

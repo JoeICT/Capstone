@@ -44,7 +44,7 @@ Enter the length (in feet), width (in feet), and cost per square feet for the pr
 
 <div class="costbystate">
 <div> <h3> This is the average cost per square foot for painting by each state. </h3>
-  <h6>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work. But this will give you a good idea of what your job should cost</h6>
+  <h4>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work. But this will give you a good idea of what your job should cost</h4>
 </div>
 <form name="form1" id="form1" action="/action_page.php">
       City & State:
