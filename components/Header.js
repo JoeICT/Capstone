@@ -17,7 +17,7 @@ export default () => html`
         <a href="#price.html">Price Your Job</a>
         <a href="#find.html">Find A Contractor</a>
 
-        <div class="flexbox-item flexbox-item-3"></div>
+        <!-- <div class="flexbox-item flexbox-item-3"></div> -->
       </div>
 
       <!-- "Hamburger menu"-->

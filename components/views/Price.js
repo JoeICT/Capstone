@@ -1,9 +1,9 @@
 import html from "html-literal";
 
 export default () => html`
-  <div class="flexbox-item flexbox-item-3">
+  <div class="calculate">
     <h1>Calculate your Square Footage</h1>
-  <!-- cost per sqft calculator 2 -->
+ <!-- cost per sqft calculator 2 -->
   <script language="javascript" type="text/javascript">
   function calculate_square_feet()
 	{

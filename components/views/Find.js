@@ -1,7 +1,7 @@
 import html from "html-literal";
 
 export default () => html`
-  <div class="flexbox-item flexbox-item-3">
+  <div class="findpage">
     <!-- city and state find menu -->
     <form name="form1" id="form1" action="/action_page.php">
       City & State:
