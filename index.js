@@ -19,20 +19,7 @@
 //   } else {
 //     x.style.display = "block";
 //   }
-// }
-
-// // sqft calculator1
-// $(document).ready(function() {
-//   $("#calculate").on("click", function() {
-//     var v1 = $("#length_feet").val();
-//     var v2 = $("#width_feet").val();
-
-//     var totalVal = parseInt(v1) * parseInt(v2);
-
-//     var areaText = " total sq ft";
-//     //calculate value for total
-//     $("#total").val(totalVal);
-//     // set total
+//
 //   });
 // });
 
@@ -43,13 +30,6 @@ import { capitalize } from "lodash";
 //declare a function named render
 
 const router = new Navigo(window.location.origin);
-
-router
-  .on({
-    ":page": params => render(state[capitalize(params.page)]),
-    "/": () => render(state.Home)
-  })
-  .resolve();
 
 function render(st = state.Home) {
   document.getElementById("root").innerHTML = `
@@ -63,7 +43,6 @@ ${Footer()}
 
   addEventListeners(st);
 }
-render(state.Home);
 
 function addEventListeners(st) {
   // add event listeners to Nav items for navigation
@@ -73,4 +52,14 @@ function addEventListeners(st) {
       render(state[event.target.title]);
     })
   );
+  document.querySelector(".fa-bars").addEventListener("click", () => {
+    document.querySelector("nav > ul").classList.toggle("hidden--mobile");
+  });
 }
+// router hooks
+router
+  .on({
+    ":page": params => render(state[capitalize(params.page)]),
+    "/": () => render(state.Home)
+  })
+  .resolve();

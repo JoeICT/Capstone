@@ -3,40 +3,13 @@ import html from "html-literal";
 export default () => html`
   <div class="flexbox-item flexbox-item-3">
     <h3>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien
-      est, dictum et risus et, fringilla euismod dolor. Nulla auctor a risus ut
-      dapibus. In eu efficitur risus, ac lobortis lorem. Quisque porta dictum
-      enim, eu imperdiet leo scelerisque vitae. Morbi placerat ante eget augue
-      varius, ac placerat ante sagittis. Donec in sem vel nibh sodales auctor.
-      Sed id ultricies arcu. Integer sollicitudin convallis ante, nec volutpat
-      lorem mattis sed. Donec iaculis felis a ante maximus pellentesque. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea
-      dictumst. Suspendisse rhoncus imperdiet enim, vitae tincidunt mauris
-      faucibus ut. Integer ultrices tempus mi, at fermentum arcu lacinia eget.
-      Donec vitae tristique eros. Integer lacinia molestie eleifend. Orci varius
-      natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Morbi tempus tempor cursus. Quisque rutrum tristique imperdiet. Duis
-      vulputate orci orci, id pretium mauris tincidunt et. Quisque vitae orci
-      accumsan lectus gravida tincidunt a eu purus. Suspendisse suscipit
-      ultrices sapien, nec pellentesque risus ornare sit amet. Morbi a hendrerit
-      nibh. Cras vitae orci pulvinar, tincidunt ipsum a, pellentesque mauris.
-      Vivamus aliquam ac nibh euismod imperdiet. Etiam fermentum malesuada elit
-      sollicitudin rhoncus.
+    Renovating your home is a big project, whether you're tackling just one room or embarking on a more extensive makeover. If you're only updating a few fixtures or surfaces, you might be able to do most of the work yourself or bring in specific pros for tasks like tiling or installing cabinetry. But if the project involves a complete overhaul of the room, hiring a general contractor might be worth the extra cost. As experts in building and remodeling projects, contractors can manage all the necessary permits, inspections, labor, equipment, and materials to ensure your remodel goes off without a hitch. The key is to find a reputable contractor that can correctly and efficiently meet the needs of your project. Make your remodel a success with these tips on how to find the right contractor.
+  </div>
     </h3>
   </div>
   <div class="flexbox-item flexbox-item-4">
     <h3>
-      Donec pellentesque sollicitudin vestibulum. Nullam id nisi arcu. Integer
-      dignissim massa sit amet felis faucibus, eu dictum orci congue. Fusce
-      auctor finibus urna, eu convallis nisl lacinia id. Quisque purus ligula,
-      ullamcorper id diam quis, aliquam pellentesque erat. Cras rhoncus lobortis
-      ex a pellentesque. Donec sit amet nunc id arcu rutrum tempus. Vestibulum
-      nec pretium mauris. Cras luctus ultrices turpis, in maximus quam posuere
-      eu. Sed sapien arcu, vehicula nec justo et, luctus accumsan odio. Duis
-      lobortis justo dui, sed varius tellus mollis et. Morbi tempor venenatis
-      ante, et lobortis quam efficitur sed. Mauris a lacus aliquam, sollicitudin
-      nibh a, ullamcorper nulla. Mauris vel tempor mauris. Suspendisse eu auctor
-      dui. Donec faucibus semper lorem non venenatis.
+    Plan to gather at least three estimates from various contractors before you make a decision. More quotes (say five or six) will give you a clearer picture of how these companies stack up against each other. Not only will you get more perspective on appropriate costs, but also you'll get an idea of the caliber of work that each contractor will provide. For example, one contractor might offer a bargain rate and marginal work; another's high bid could indicate quality.
     </h3>
   </div>
 `;

@@ -4,10 +4,6 @@ import logo from "../assets/image/new1.jpg";
 
 export default () => html`
   <header>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
 
     <!-- Top Navigation -->
     <div class="topnav">
@@ -25,25 +21,22 @@ export default () => html`
       </div>
 
       <!-- "Hamburger menu"-->
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
+
 
       <!-- Top Navigation Menu -->
 
       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
-    </div>
+    </div> -->
     <!-- "hamburger menu"-->
-    <script language="javascript" type="text/javascript"></script>
+    <!-- <script language="javascript" type="text/javascript"></script> -->
 
     <!-- hamburger menu-->
 
-    <div class="flexbox-container">
-      <div class="flexbox-item flexbox-item-0">
+    <div class="headerBar">
+      <div class="headerImage">
         <img src="${logo}" />
       </div>
 

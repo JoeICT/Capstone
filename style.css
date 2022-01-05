@@ -1,8 +1,7 @@
-
 /*header*/
-.flexbox {
+/* .flexbox {
   display:flex;
-}
+} */
 
 header {
 
@@ -22,7 +21,7 @@ max-height: 290px;
 
 
 
-.flexbox-container {
+/* .flexbox-container {
   display:flex;
 justify-content: center;
 }
@@ -55,19 +54,19 @@ color:rgb(255, 255, 255);
   background-image:url(greyback.jpg);
   color:rgb(255, 255, 255);
 
-  }
+  } */
 
 body {
   background-color: rgb(255, 255, 255);
 }
-.flexbox-container-2 {
+/* .flexbox-container-2 {
   display:flex;
   height:300px;
   flex-grow: 2;
 
 
 
-}
+} */
 .headline {
   text-align:center;
   color:white;
@@ -77,7 +76,6 @@ body {
   padding-left: 230px;
   padding-right: 440px;
   padding-top:40px;
-
 }
 
 /* Style the navigation menu */
@@ -374,4 +372,23 @@ padding-bottom: 70px;
 
 .costbystate {
   padding-top: 30px;
+}
+@media (max-width: 550px){
+  .hidden--mobile {
+    display: none;
+  }
+}
+@media (min-width: 550px){
+  nav > .fa-bars{
+    display: none;
+  }
+}
+
+
+.headerBar{
+  display: flex;
+  flex-flow: row;
+}
+.headerImage {
+  height: auto;
 }
