@@ -56,7 +56,12 @@ color:rgb(255, 255, 255);
 
   } */
 
-body {
+  html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
   background-color: rgb(255, 255, 255);
 }
 /* .flexbox-container-2 {
@@ -68,24 +73,24 @@ body {
 
 } */
 .headline {
-  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding-right: 160px;
+
   color:white;
   font-family: font-family 'Montserrat', sans-serif;
   text-shadow: 2px 2px 5px #dfdfdf;
   font-size: 200%;
-  padding-left: 430px;
-  padding-right: 440px;
-  padding-top:40px;
+}
+
+.headline div {
+  width: 100px;
+  height: 100px;
 }
 
 
-
-
-/* Style the active link (or home/logo) */
-/* .active {
-  background-color: transparent;
-  color: white;
-} */
 
 footer {
   display: flex;
@@ -103,20 +108,6 @@ input,
   margin-bottom:15px;
 }
 /*dropdown*/
-
-*{
-  padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-  box-sizing: border-box;
-}
-.float-right{
-  float: right;
-}
-.fa{
-font-size: .8em;
-  line-height: 22px !important;
-}
 dropdown{
   display: inline-block;
   margin: 20px 50px;
@@ -189,17 +180,6 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   -moz-backface-visibility:hidden; /* Firefox */
   -ms-backface-visibility:hidden; /* Internet Explorer */
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*calendar*/
 
