@@ -20,6 +20,7 @@
   "dependencies": {
     "assets": "^3.0.1",
     "axios": "^0.24.0",
+    "fullcalendar": "^5.10.1",
     "html-literal": "^1.1.0",
     "lodash": "^4.17.21",
     "navigo": "^7.1.3",

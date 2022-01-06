@@ -12,7 +12,7 @@ export default () => html`
     <a href="Home.js">
       <div class="button1"><button><h1>Homeowner</h1></button></div>
 
-    <a href="Home.js">
+    <a href="Contractor.js">
     <div class="button2"><button><h1>Contractor</h1></button></div>
     </a>
   </div>
