@@ -356,7 +356,7 @@ padding-bottom: 70px;
 }
 .welcomegreeting {
   text-align: center;
-  text-shadow: 2px 2px grey;
+  text-shadow: 2px 2px rgb(212, 212, 212);
 }
 /* contracotor page */
 
@@ -366,7 +366,7 @@ padding-bottom: 70px;
 
 .cont-info {
 text-align: center;
-text-shadow: 2px 2px grey;
+text-shadow: 2px 2px rgb(212, 212, 212);
 padding-bottom: 50px;
 
 }
