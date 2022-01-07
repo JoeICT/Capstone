@@ -8,6 +8,7 @@ header {
 background-image: url("greyback.jpg");
 max-height: 290px;
 
+
     }
 
 .navbar {
@@ -91,11 +92,13 @@ color:rgb(255, 255, 255);
 }
 
 
+/* footer */
 
 footer {
   display: flex;
   justify-content: center;
 }
+
 /* sqft calculator */
 label {
   font-size:14px;
@@ -108,7 +111,7 @@ input,
   margin-bottom:15px;
 }
 /*dropdown*/
-dropdown{
+/* dropdown{
   display: inline-block;
   margin: 20px 50px;
 }
@@ -177,9 +180,9 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   transition: all .3s;
   backface-visibility:hidden;
   -webkit-backface-visibility:hidden; /* Chrome and Safari */
-  -moz-backface-visibility:hidden; /* Firefox*/
-  -ms-backface-visibility:hidden; /*Internet Explorer*/
-}
+  /*-moz-backface-visibility:hidden;*/ /* Firefox*/
+ /* -ms-backface-visibility:hidden; /*Internet Explorer*/
+
 /* resources page  */
 #res1 {
 
@@ -280,22 +283,41 @@ padding-bottom: 70px;
   text-shadow: 2px 2px grey;
 
 }
-.welcomegreeting {
-  text-align: center;
-  text-shadow: 2px 2px rgb(212, 212, 212);
-}
 
 
 /* home page */
-.home-page-par1 {
-display: flex;
-border-style: groove;
-background-image: URL(interacting.jpg) ;
+
+.welcomegreeting {
+  text-align: center;
+  padding: 40px;
+  text-shadow: 2px 2px rgb(212, 212, 212);
+  background: rgba(255,255,255, 0.5);
 }
 
-.home-page-par2 {
-  background-image: URL(homeowner.jpg);
+#home-body {
+  background-image: url("homeowner.jpg");
 }
+
+.home-page-par1 {
+    display: flex;
+    max-width: 550px;
+    padding: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border-style: groove;
+    border-radius: 40px;
+    background: rgba(255,255,255, 0.5);
+    }
+
+.home-page-par2 {
+  max-width: 550px;
+  padding: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+  border-style: groove;
+  border-radius: 40px;
+  background: rgba(255,255,255, 0.5);
+  }
 /* Contractor page */
 #cname {
   padding-right: 38px;
@@ -309,9 +331,10 @@ background-image: URL(interacting.jpg) ;
 }
 #trade {
 padding-right:51px;
+padding-top: -10px;
 }
 #location {
-  padding-right:30px;
+  padding-right:0px;
 }
 
 .cont-page {
@@ -326,5 +349,16 @@ padding-bottom: 50px;
 
 .cont-body {
   text-align: center;
+  background-color:rgba(255,255,255, 0.5);
+
+
+
+
+}
+.citystate {
+  padding-left:50px;
+}
+.submit-contractor {
+padding-bottom: 190px;
 }
 /* end contractors page */

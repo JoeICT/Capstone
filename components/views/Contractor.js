@@ -25,11 +25,12 @@ export default () => html`
         name="phone"
         pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
       />
+<div class="citystate">
       <form name="form1" id="form1" action="/action_page.php">
         <!--end of phone number input -->
         City & State:
-        <select name="location" id="location">
-        <option value="NY"selected="selected">New York City	New York</option>
+<select name="location" id="location">
+<option value="NY"selected="selected">New York City	New York</option>
 <option value="CA"selected="selected">Los Angeles	California</option>
 <option value="IL"selected="selected">Chicago	Illinois</option>
 <option value="TX"selected="selected">Houston	Texas</option>
@@ -229,21 +230,21 @@ export default () => html`
 <option value="LA"selected="selected">Metairie Louisiana</option>
 <option value="KS"selected="selected">Olathe Kansas</option>
 <option value="TX"selected="selected">Waco Texas</option>
-<option value="DE"selected="selected">Delaware</option>
-<option value="ME"selected="selected">Maine</option>
-<option value="MD"selected="selected">Maryland</option>
-<option value="MT"selected="selected">Montana</option>
-<option value="NE"selected="selected">Nebraska</option>
-<option value="NH"selected="selected">New Hampshire</option>
-<option value="ND"selected="selected">North Dakota</option>
-<option value="RI"selected="selected">Rhode Island</option>
-<option value="SC"selected="selected">South Carolina</option>
-<option value="SD"selected="selected">South Dakota</option>
-<option value="VT"selected="selected">Vermont</option>
-<option value="WV"selected="selected">West Virginia</option>
-<option value="WY"selected="selected">Wyoming</option>
-
+<option value="DE"selected="selected">Wilmington Delaware</option>
+<option value="ME"selected="selected">Portland Maine</option>
+<option value="MD"selected="selected">Baltimore Maryland</option>
+<option value="MT"selected="selected">Billings Montana</option>
+<option value="NE"selected="selected">Bellevue Nebraska</option>
+<option value="NH"selected="selected">Manchester New Hampshire</option>
+<option value="ND"selected="selected">Fargo North Dakota</option>
+<option value="RI"selected="selected">New Shoreham Rhode Island</option>
+<option value="SC"selected="selected">Charleston South Carolina</option>
+<option value="SD"selected="selected">Sioux Falls South Dakota</option>
+<option value="VT"selected="selected">Burlington Vermont</option>
+<option value="WV"selected="selected">Charleston West Virginia</option>
+<option value="WY"selected="selected">Cheyenne Wyoming</option>
 </select>
+</div>
         <br /><br />
         Trade:
         <select name="trade" id="trade">
@@ -265,43 +266,13 @@ export default () => html`
           rel="stylesheet"
           href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
         />
-        <dropdown>
-          <input id="toggle1" type="checkbox" checked />
-          <label for="toggle1" class="animate"
-            >Select Dates<i class="fa fa-bars float-right"></i
-          ></label>
-          <ul class="animate">
-            <!-- calendar  -->
-            <h1 class="center"></h1>
-            <div class="calendar">
-              <div class="group">
-                <p class="left pointer minusmonth">&laquo;</p>
-                <p class="left monthname center pointer"></p>
-                <p class="right pointer addmonth">&raquo;</p>
-              </div>
-              <ul class="group">
-                <li>Mo</li>
-                <li>Tu</li>
-                <li>We</li>
-                <li>Th</li>
-                <li>Fr</li>
-                <li>Sa</li>
-                <li>Su</li>
-              </ul>
-            </div>
-          </ul>
-        </dropdown>
 
-        <!-- Requested Dates:
-      <select name="topic" id="topic">
-        <option value="" selected="selected"
-          >Please select subject first</option
-        >
-      </select> -->
         <br /><br />
 
         <br /><br />
+        <div class="submit-contractor">
         <input type="submit" value="Submit" />
+        </div>
       </form>
     </div>
   </body>

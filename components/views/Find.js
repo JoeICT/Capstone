@@ -207,19 +207,19 @@ export default () => html`
 <option value="LA"selected="selected">Metairie Louisiana</option>
 <option value="KS"selected="selected">Olathe Kansas</option>
 <option value="TX"selected="selected">Waco Texas</option>
-<option value="DE"selected="selected">Delaware</option>
-<option value="ME"selected="selected">Maine</option>
-<option value="MD"selected="selected">Maryland</option>
-<option value="MT"selected="selected">Montana</option>
-<option value="NE"selected="selected">Nebraska</option>
-<option value="NH"selected="selected">New Hampshire</option>
-<option value="ND"selected="selected">North Dakota</option>
-<option value="RI"selected="selected">Rhode Island</option>
-<option value="SC"selected="selected">South Carolina</option>
-<option value="SD"selected="selected">South Dakota</option>
-<option value="VT"selected="selected">Vermont</option>
-<option value="WV"selected="selected">West Virginia</option>
-<option value="WY"selected="selected">Wyoming</option>
+<option value="DE"selected="selected">Wilmington Delaware</option>
+<option value="ME"selected="selected">Portland Maine</option>
+<option value="MD"selected="selected">Baltimore Maryland</option>
+<option value="MT"selected="selected">Billings Montana</option>
+<option value="NE"selected="selected">Bellevue Nebraska</option>
+<option value="NH"selected="selected">Manchester New Hampshire</option>
+<option value="ND"selected="selected">Fargo North Dakota</option>
+<option value="RI"selected="selected">New Shoreham Rhode Island</option>
+<option value="SC"selected="selected">Charleston South Carolina</option>
+<option value="SD"selected="selected">Sioux Falls South Dakota</option>
+<option value="VT"selected="selected">Burlington Vermont</option>
+<option value="WV"selected="selected">Charleston West Virginia</option>
+<option value="WY"selected="selected">Cheyenne Wyoming</option>
 </select>
       <br /><br />
       Trade:
@@ -242,39 +242,7 @@ export default () => html`
         rel="stylesheet"
         href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
       />
-      <dropdown>
-        <input id="toggle1" type="checkbox" checked />
-        <label for="toggle1" class="animate"
-          >Select Dates<i class="fa fa-bars float-right"></i
-        ></label>
-        <ul class="animate">
-          <!-- calendar  -->
-          <h1 class="center"></h1>
-          <div class="calendar">
-            <div class="group">
-              <p class="left pointer minusmonth">&laquo;</p>
-              <p class="left monthname center pointer"></p>
-              <p class="right pointer addmonth">&raquo;</p>
-            </div>
-            <ul class="group">
-              <li>Mo</li>
-              <li>Tu</li>
-              <li>We</li>
-              <li>Th</li>
-              <li>Fr</li>
-              <li>Sa</li>
-              <li>Su</li>
-            </ul>
-          </div>
-        </ul>
-      </dropdown>
 
-      <!-- Requested Dates:
-      <select name="topic" id="topic">
-        <option value="" selected="selected"
-          >Please select subject first</option
-        >
-      </select> -->
       <br /><br />
 
       <br /><br />
@@ -282,41 +250,6 @@ export default () => html`
     </form>
   </div>
 `;
-
-// <!-- javascript for calendar -->
-
-//   var themonth = 1; renderCal(themonth); $('.minusmonth').click(function(){
-//   themonth += -1; renderCal(themonth); }); $('.addmonth').click(function(){
-//   themonth += 1; renderCal(themonth); }); function renderCal(themonth){
-//   $('.calendar li').remove(); $('.calendar ul').append('
-//   <li>Mo</li>
-//   <li>Tu</li>
-//   <li>We</li>
-//   <li>Th</li>
-//   <li>Fr</li>
-//   <li>Sa</li>
-//   <li>Su</li>
-//   '); var d = new Date(), currentMonth = d.getMonth()+themonth, // get this
-//   month days = numDays(currentMonth,d.getYear()), // get number of days in the
-//   month fDay = firstDay(currentMonth,d.getYear())-1, // find what day of the
-//   week the 1st lands on months =
-//   ['January','February','March','April','May','June','July','August','September','October','November','December'];
-//   // month names $('.calendar p.monthname').text(months[currentMonth-1]); // add
-//   month name to calendar for (var i=0;i<fDay-1;i++) { // place the first day of
-//   the month in the correct position $('
-//   <li>&nbsp;</li>
-//   ').appendTo('.calendar ul'); } for (var i = 1;i<=days;i++) { // write out the
-//   days $('
-//   <li>'+i+'</li>
-//   ').appendTo('.calendar ul'); } function firstDay(month,year) { return new
-//   Date(year,month,1).getDay(); } function numDays(month,year) { return new
-//   Date(year,month,0).getDate(); } var clicker = 0; var min = 0; var max = 0;
-//   $('.calendar li').click(function(){ // toggle selected dates if(clicker==0){
-//   clicker=1; $('.calendar li').removeClass('red'); $(this).addClass('red'); min
-//   = $(this).text(); } else { clicker=0; $(this).addClass('red'); $('.calendar
-//   li.red').each(function(){ max = $(this).text(); });
-//   for(i=parseInt(min);i<parseInt(max);i++){ $('.calendar
-//   li:nth-of-type('+(i+7+fDay-1)+')').addClass('red'); } } }); }
 
 // this is the javascript for cascade drop down menus
 // var subjectObject = {
