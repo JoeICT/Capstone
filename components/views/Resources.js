@@ -8,7 +8,9 @@ export default () => html`
         WatchDog Offender Search
         <p><h6>
           This is where you can take a closer look into the person you are
-          allowing in your home and potentially around your children
+          allowing in your home and potentially around your children.
+          <br>
+          <a href="https://www.familywatchdog.us/">Offender Search!</a>
           </h6>
         </p>
       </div>

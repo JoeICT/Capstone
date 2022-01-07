@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const contractorSchema = new mongoose.Schema({
+const priceSchema = new mongoose.Schema({
   First: String,
   Last: String,
   Company: String,
@@ -9,9 +9,9 @@ const contractorSchema = new mongoose.Schema({
   Trade: String
 });
 
-const Contractor = mongoose.model("Contractor", contractorSchema);
+const Price = mongoose.model("Price", priceSchema);
 
 module.exports = {
-  schema: contractorSchema,
-  model: Contractor
+  schema: priceSchema,
+  model: Price
 };

@@ -32,36 +32,36 @@ app.get("/status", (request, response) => {
   response.send(JSON.stringify({ message: "Service healthy" }));
 });
 
-// app.route("/pizzas").get((request, response) => {
-//   response.send(
-//     JSON.stringify({
-//       size: "Large",
-//       sauce: "Red",
-//       toppings: ["Pepperoni"]
-//     })
-//   );
-// });
+app.route("/price").get((request, response) => {
+  response.send(
+    JSON.stringify({
+      size: "Large",
+      sauce: "Red",
+      toppings: ["Pepperoni"]
+    })
+  );
+});
 
-// app.post("/pizzas/:id", (request, response) => {
-//   const id = request.params.id;
-//   const body = request.body;
-//   // if (id === "error") {
-//   //   response.status(500).json({
-//   //     message: "Failed",
-//   //     error: "Because I said so!"
-//   //   });
-//   // } else {
-//   //   response.json({
-//   //     message: "Success",
-//   //     pizza_id: id
-//   //   });
-//   // }
-//   response.json({
-//     message: "Success",
-//     pizza_id: id,
-//     pizza_body: body
-//   });
-// });
+app.post("/price/:id", (request, response) => {
+  const id = request.params.id;
+  const body = request.body;
+  //   // if (id === "error") {
+  //   //   response.status(500).json({
+  //   //     message: "Failed",
+  //   //     error: "Because I said so!"
+  //   //   });
+  //   // } else {
+  //   //   response.json({
+  //   //     message: "Success",
+  //   //     pizza_id: id
+  //   //   });
+  //   // }
+  response.json({
+    message: "Success",
+    price_id: id,
+    price_body: body
+  });
+});
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
