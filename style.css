@@ -252,13 +252,15 @@ padding-bottom: 70px;
 
   /* hamburger bar*/
 }
-@media (max-width: 550px){
+
+@media (max-width: 549px) {
   .hidden--mobile {
-    display: none;
+    display: none !important;
   }
 }
+
 @media (min-width: 550px){
-  nav > .fa-bars{
+   nav > .fa-bars{
     display: none;
   }
 }
