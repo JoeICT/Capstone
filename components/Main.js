@@ -4,7 +4,7 @@ import * as views from "./views";
 export default st => html`
   ${views[st.view](st)}
 
-  <nav>
+  <!-- <nav>
     <div class="navbar">
       <a href="#Home." style="color:black">Home /</a>
       <a href="#Resources." style="color:black">Resources /</a>
@@ -12,5 +12,5 @@ export default st => html`
       <a href="#Find." style="color:black">Find a Contractor</a>
       <a href="#Contractor." style="color:black">Find a Job</a>
     </div>
-  </nav>
+  </nav> -->
 `;

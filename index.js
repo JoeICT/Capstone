@@ -33,8 +33,9 @@ dotenv.config();
 //declare a function named render
 
 const router = new Navigo(window.location.origin);
+// function render(st = state.Home) {
 
-function render(st = state.Home) {
+function render(st) {
   document.getElementById("root").innerHTML = `
 ${Header(st)}
 ${Nav(state.Links)}
