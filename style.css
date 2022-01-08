@@ -71,7 +71,7 @@ color:rgb(255, 255, 255);
   padding-right: 160px;
 
   color:white;
-  font-family: font-family 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 5px #dfdfdf;
   font-size: 200%;
 }
@@ -101,8 +101,8 @@ input,
   margin-bottom:15px;
 }
 .price-instructions{
-font-family: fantasy;
-font-size: medium;
+  font-family:'Montserrat', sans-serif;
+  font-size: medium;
 }
 /*dropdown*/
 /* dropdown{
@@ -178,18 +178,33 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
  /* -ms-backface-visibility:hidden; /*Internet Explorer*/
 
 /* resources page  */
+.reshead {
+  font-family:'Montserrat', sans-serif;
+  ;
+}
 #res1 {
-
+  font-family:'Montserrat', sans-serif;
   text-align: center;
   color: rgb(12, 12, 12);
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
 }
 #res2 {
   text-align: center;
   color: rgb(12, 12, 12);
+  font-family:'Montserrat', sans-serif;
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
 }
 #res3 {
   text-align: center;
   color: rgb(12, 12, 12);
+  font-family:'Montserrat', sans-serif;
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
 }
 .flex-container {
   display: flex;
@@ -254,7 +269,7 @@ font-family:'Montserrat', sans-serif;
   padding-bottom: 220px;
 } */
 .button1 {
-  padding-bottom: 40px;
+  padding:0;
 }
 .costbystate {
   padding-top: 30px;
@@ -290,7 +305,7 @@ nav > .fa-bars{
   padding-bottom:90px;
   font-size: larger;
   text-align: center;
-  font-family: fantasy;
+  font-family:'Montserrat', sans-serif;
 }
 #findpage{
   text-align: center;
@@ -304,7 +319,7 @@ nav > .fa-bars{
 /* } */
 .findcontractor {
   color: black;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Montserrat', sans-serif;
   padding-bottom: 30px;
   padding-top: 20px;
   text-shadow: 2px 2px grey;
@@ -318,10 +333,14 @@ nav > .fa-bars{
   padding: 40px;
   text-shadow: 2px 2px rgb(212, 212, 212);
   background: rgba(255,255,255, 0.5);
+  font-family:'Montserrat', sans-serif;
+
 }
 
 #home-body {
   background-image: url("homeowner.jpg");
+  font-family:'Montserrat', sans-serif;
+
 }
 
 .home-page-par1 {
@@ -332,7 +351,7 @@ nav > .fa-bars{
     padding-right: 300px;
     border-style: groove;
     border-radius: 40px;
-    background: rgba(255,255,255, 0.5);
+    background: rgba(255,255,255, 0.8);
     }
 
 .home-page-par2 {
@@ -342,7 +361,7 @@ nav > .fa-bars{
   padding-right: 300px;
   border-style: groove;
   border-radius: 40px;
-  background: rgba(255,255,255, 0.5);
+  background: rgba(255,255,255, 0.8);
   }
 /* Contractor page */
 #cname {
@@ -354,7 +373,8 @@ nav > .fa-bars{
 #form1 {
   padding-top:19px;
   font-size: larger;
-  font-family:fantasy;
+  font-family:'Montserrat', sans-serif;
+
 }
 #trade {
 padding-right:51px;
@@ -368,7 +388,8 @@ padding-right:40px;
   padding-top:19px;
   padding-right:24px;
   font-size: larger;
-  font-family:fantasy;
+  font-family:'Montserrat', sans-serif;
+
 }
 #location {
   padding-right:0px;
@@ -391,8 +412,9 @@ padding-right:40px;
   border-style: inset;
   color:white;
   background-color: black;
-  text-shadow: 2px 2px black);
+  text-shadow: 2px 2px grey;
   animation: mymove 5s infinite;
+  font-family:'Montserrat', sans-serif;
 }
 
 @keyframes mymove {
@@ -401,7 +423,7 @@ padding-right:40px;
 
 .cont-body {
   text-align: center;
-  font-family: fantasy;
+  font-family:'Montserrat', sans-serif;
   background-color:rgba(255,255,255, 0.5);
 }
 
@@ -412,12 +434,13 @@ padding-right:6px;
 
 .submit-contractor {
 padding-bottom: 190px;
-font-family: fantasy;
+font-family:'Montserrat', sans-serif;
 font-size: larger;
 }
 
 #trade-contractor-page {
-  font-family: fantasy;
+  font-family:'Montserrat', sans-serif;
+
   font-size: 19px;
 }
 #lname {
@@ -441,7 +464,6 @@ nav > ul {
   padding: 0 0;
   color: black;
   background-image: url("greyback.jpg");
-
 }
 
 nav > ul > li {
@@ -454,12 +476,12 @@ nav > ul > li {
   font-size:large;
 }
 
-/* visited link */
+/* default link */
 a:link {
   color:white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* visited link */
 a:visited {
   color: white;
   font-size:x-large;
@@ -468,7 +490,7 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: black;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Montserrat', sans-serif;
   font-size:xx-large;
   background-color:whitesmoke;
 }
@@ -478,3 +500,18 @@ a:active {
   color: grey;
   font-size: x-large;
 }
+
+/* footer and price page */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color:rgb(212, 212, 212);
+  padding-bottom: 20px;
+}
+footer > a {
+  color:rgb(12, 12, 12);
+}
+
+
+
