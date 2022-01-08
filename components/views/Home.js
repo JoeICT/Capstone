@@ -13,7 +13,7 @@ import html from "html-literal";
 export default () => html`
 
   <div id="home-body">
-  <div class="welcomegreeting"><h1>About This Site</h1></div>
+  <div class="welcomegreeting"><h1>About This Site</h1></div><br>
   <div class="home-page-par1">
     <h2>
       <strong>
