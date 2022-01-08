@@ -339,26 +339,38 @@ nav > .fa-bars{
 
 #home-body {
   background-image: url("homeowner.jpg");
+  background-size: cover;
   font-family:'Montserrat', sans-serif;
+  padding-left:90px;
+  padding-right: 90px;
+  align-content: space-between;
 
 }
 
 .home-page-par1 {
-    display: flex;
-    max-width: 550px;
+  display: flex;
+  justify-content: center;
+  padding-left:90px;
+  padding-right: 90px;
+    /* max-width: 550px;
     padding: 40px;
     padding-left: 300px;
-    padding-right: 300px;
-    border-style: groove;
-    border-radius: 40px;
-    background: rgba(255,255,255, 0.8);
+    padding-right: 300px; */
+  border-style: groove;
+  border-radius: 40px;
+  background: rgba(255,255,255, 0.8);
     }
 
 .home-page-par2 {
-  max-width: 550px;
+  display: flex;
+  justify-content: center;
+  flex-shrink:3;
+  padding-left:90px;
+  padding-right: 90px;
+  /* max-width: 550px;
   padding: 40px;
   padding-left: 300px;
-  padding-right: 300px;
+  padding-right: 300px; */
   border-style: groove;
   border-radius: 40px;
   background: rgba(255,255,255, 0.8);
