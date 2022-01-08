@@ -432,7 +432,12 @@ padding-right:40px;
   text-shadow: 2px 2px grey;
   animation: mymove 5s infinite;
   font-family:'Montserrat', sans-serif;
-}
+  }
+  #cont-info:hover{
+    color: black;
+    font-family:'Montserrat', sans-serif;
+    background-color:whitesmoke;
+  }
 
 @keyframes mymove {
   88% {background-color: white;}
