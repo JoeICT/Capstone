@@ -1,11 +1,11 @@
 import html from "html-literal";
 
 export default () => html`
-  <div class="findpage">
+  <div id="findpage">
     <div class="findcontractor"><h1>Find A Contractor In Your Area</h1></div>
     <!-- city and state find menu -->
     <form name="form1" id="form1" action="/action_page.php">
-      City & State:
+     City & State:
       <select name="location" id="location">
       <option value="NY"selected="selected">New York City	New York</option>
 <option value="CA"selected="selected">Los Angeles	California</option>
@@ -222,16 +222,18 @@ export default () => html`
 <option value="WY"selected="selected">Cheyenne Wyoming</option>
 </select>
       <br /><br />
+      <div class="trade-find">
       Trade:
       <select name="trade" id="trade">
-        <option value="" selected="selected">Painter</option>
-        <option value="" selected="selected">Drywall</option>
-        <option value="" selected="selected">HVAC</option>
-        <option value="" selected="selected">Electrician</option>
-        <option value="" selected="selected">Plumber</option>
-        <option value="" selected="selected">Concrete</option>
-        <option value="" selected="selected">Roofer</option>
+        <option value="Painter" selected="selected">Painter</option>
+        <option value="Drywall" selected="selected">Drywall</option>
+        <option value="HVAC" selected="selected">HVAC</option>
+        <option value="Electrician" selected="selected">Electrician</option>
+        <option value="Plumber" selected="selected">Plumber</option>
+        <option value="Concrete" selected="selected">Concrete</option>
+        <option value="Roofer" selected="selected">Roofer</option>
       </select>
+      </div>
       <br /><br />
       <link
         href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
@@ -246,9 +248,12 @@ export default () => html`
       <br /><br />
 
       <br /><br />
+      <div class="submit-find">
       <input type="submit" value="Submit" />
+</div>
+</div>
     </form>
-  </div>
+  <!-- </div> -->
 `;
 
 // this is the javascript for cascade drop down menus

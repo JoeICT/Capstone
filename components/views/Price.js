@@ -19,7 +19,11 @@ export default () => html`
 </head>
 
 <body>
-
+<div class="price-instructions">
+  <p>Most contractors bid their jobs based on square footage and linear footage. By calculating the square footage of the work that you want done you may be able to save yourself some time and possibly money by already having a rough estimate of what your job may cost before ever having to call a contractor. Besides with our busy lives it can sometimes be difficult to juggle schedules to meet with someone at our homes. Especially if you end up needing several estimates just to find the median cost. This simple sqft calculator can effectively help you to have an idea if you are getting an overpriced estimate. Remember that a low price is not always indicative of a good deal and can soemtimes be a red flag to look out for. </p><br>
+  Measuring squre footage is for the most part very simple. You just measure length and width of whatever it is that you are needing worked on. For example if you are wanting one wall painted in a living room you measure how tall the wall is. Dont forget to write it down. Then you measure how wide or long the wall is. If you are measuring a ceiling you do the same thing. Measure one direction and then the other. Where it can get tricky is measuring awkward shaped areas but anybody can do it. You would need to do this for each wall that you want to have painted.<p> <br>
+  After you have done this process for each wall that you want painted you will then take the each measurement and input them into the calculator one wall at a time. Then input the average cost per sqft per state to pain as provided in the dropdown menu below. After that click submit and reset when you want to check the cost of another wall. Just repeat the same process in the calculator for each wall and you will effectively have a rough estimate of labor cost to paint before ever having to call a contractor. This same process can be applied to anything that is measured in sqft. For example you could repeat this process for flooring, how much material you will need etc.</p>
+</div>
 
 
 <div align="center">
@@ -44,16 +48,16 @@ Enter the length (in feet), width (in feet), and cost per square feet for the pr
 
 <div class="costbystate">
 <div> <h3> This is the average cost per square foot for painting by each state. </h3>
-  <h4>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work. But this will give you a good idea of what your job should cost</h4>
+  <h4>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work as well as numerous coats. But this will give you a good idea of what your job should cost</h4>
 </div>
-<form name="form1" id="form1" action="/action_page.php">
+<form name="form1" id="prices-by-state" action="/action_page.php">
       City & State:
-      <select name="location" id="location">
+      <select name="location" id="price-state">
         <option value="AL" selected="selected">Alabama</option>
         <option value="AK" selected="selected">Alaska</option>
         <option value="AZ" selected="selected">Arizona</option>
         <option value="AR" selected="selected">Arkansas</option>
-        <option value="CA" selected="selected">California</option>
+        <option value="CA" selected="selected">California 3.00</option>
         <option value="CO" selected="selected">Colorado</option>
         <option value="CT" selected="selected">Connecticut</option>
         <option value="DE" selected="selected">Delaware</option>
@@ -65,7 +69,7 @@ Enter the length (in feet), width (in feet), and cost per square feet for the pr
         <option value="IL" selected="selected">Illinois</option>
         <option value="IN" selected="selected">Indiana</option>
         <option value="IA" selected="selected">Iowa</option>
-        <option value="KS" selected="selected">Kansas</option>
+        <option value="KS" selected="selected">Kansas .05</option>
         <option value="KY" selected="selected">Kentucky</option>
         <option value="LA" selected="selected">Louisiana</option>
         <option value="ME" selected="selected">Maine</option>

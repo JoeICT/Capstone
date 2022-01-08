@@ -82,7 +82,7 @@ color:rgb(255, 255, 255);
 }
 
 
-/* footer */
+/* footer and price page */
 
 footer {
   display: flex;
@@ -99,6 +99,10 @@ label {
 input,
 #total{
   margin-bottom:15px;
+}
+.price-instructions{
+font-family: fantasy;
+font-size: medium;
 }
 /*dropdown*/
 /* dropdown{
@@ -224,8 +228,18 @@ flex-grow: 4;
 justify-content: space-evenly;
   }
 .logheader {
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right:30px;
 text-align: center;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.whatareyou {
+text-align: center;
+padding-top: 5px;
+background-color: rgba(255, 255, 255, 0.5);
+
 }
 .loginbody {
 background-image: url("painter.jpeg");
@@ -243,9 +257,9 @@ padding-bottom: 70px;
 }
 .costbystate {
   padding-top: 30px;
-
-  /* hamburger bar*/
 }
+  /* hamburger bar*/
+
 @media (max-width: 549px) {
   .hidden--mobile {
     display: none !important;
@@ -266,16 +280,34 @@ nav > .fa-bars{
 .calculate {
   text-align: center;
 }
-.findpage {
+/* #findpage {
   text-align: center;
+  background-color: lightgrey;
+  border-style: inset;
+} */
+.submit-find {
+  padding-bottom:90px;
+  font-size: larger;
+  text-align: center;
+  font-family: fantasy;
 }
+#findpage{
+  text-align: center;
+  background: darkgrey;
+  animation: mymove 5s infinite;
+  border-style: inset;
+}
+
+/* @keyframes mymove {
+  50% {background-color: rgba(255,255,255, 0.5);} */
+/* } */
 .findcontractor {
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
   padding-bottom: 30px;
+  padding-top: 20px;
   text-shadow: 2px 2px grey;
-
 }
 
 
@@ -321,38 +353,127 @@ nav > .fa-bars{
 }
 #form1 {
   padding-top:19px;
-  padding-right:24px;
+  font-size: larger;
+  font-family:fantasy;
 }
 #trade {
 padding-right:51px;
-padding-top: -10px;
+padding-top: 0px;
+font-size: larger;
+text-align: center;
+padding-right:40px;
+}
+.trade-find{
+  text-align: center;
+  padding-top:19px;
+  padding-right:24px;
+  font-size: larger;
+  font-family:fantasy;
 }
 #location {
   padding-right:0px;
+  font-size: 28px;
+  text-align: center;
+
 }
 
 .cont-page {
   text-align: center;
 }
+#cont-page-location {
+  font-size: 19px;
+}
 
-.cont-info {
-text-align: center;
-text-shadow: 2px 2px rgb(212, 212, 212);
-padding-bottom: 50px;
+#cont-info {
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  border-style: inset;
+  color:white;
+  background-color: black;
+  text-shadow: 2px 2px black);
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  88% {background-color: white;}
 }
 
 .cont-body {
   text-align: center;
+  font-family: fantasy;
   background-color:rgba(255,255,255, 0.5);
-
-
-
-
 }
+
 .citystate {
-  padding-left:50px;
+padding-left: 1px;
+padding-right:6px;
 }
+
 .submit-contractor {
 padding-bottom: 190px;
+font-family: fantasy;
+font-size: larger;
+}
+
+#trade-contractor-page {
+  font-family: fantasy;
+  font-size: 19px;
+}
+#lname {
+  padding-right: 0px;
+}
+#cname {
+  padding-left: -70px;
+  padding-right: 40px;
+}
+#phone {
+  padding-left: -100px;
+  padding-right: 50px;
 }
 /* end contractors page */
+
+
+/* nav */
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0;
+  color: black;
+  background-image: url("greyback.jpg");
+
+}
+
+nav > ul > li {
+  display: inline-block;
+  text-decoration-color: black;
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  /* background-color: rgba(255,255,255, 0.5); */
+  font-size:large;
+}
+
+/* visited link */
+a:link {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:visited {
+  color: white;
+  font-size:x-large;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:xx-large;
+  background-color:whitesmoke;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+  font-size: x-large;
+}

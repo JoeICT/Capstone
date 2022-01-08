@@ -2,7 +2,7 @@ import html from "html-literal";
 
 export default () => html`
   <body>
-    <div class="cont-info">
+    <div id="cont-info">
       <h1>
         Input your info and availability into our database so customers can find
         you.
@@ -11,14 +11,14 @@ export default () => html`
     <div class="cont-body">
       <!-- phone number input -->
       <!-- <form action="/action_page.php"> -->
-        <label for="fname">First name:</label>
+        <label for="fname"><h2>First name:</h2></label>
         <input type="text" id="fname" name="fname" /><br /><br />
-        <label for="lname">Last name:</label>
+        <label for="lname"><h2>Last name:</h2></label>
         <input type="text" id="lname" name="lname" /><br /><br />
-        <label for="fname">Company name:</label>
+        <label for="fname"><h2>Company name:</h2></label>
         <input type="text" id="cname" name="cname" /><br /><br />
       </form>
-      <label for="phone">Enter your phone number: </label>
+      <label for="phone"><h2>phone number:</h2></label>
       <input
         type="tel"
         id="phone"
@@ -30,8 +30,8 @@ export default () => html`
       <form name="form1" id="form1">
 
         <!--end of phone number input -->
-        City & State:
-<select name="location" id="location">
+      <h3> City & State:</h3></form>
+<select name="location" id="cont-page-location">
 <option value="NY"selected="selected">New York City	New York</option>
 <option value="CA"selected="selected">Los Angeles	California</option>
 <option value="IL"selected="selected">Chicago	Illinois</option>
@@ -246,10 +246,11 @@ export default () => html`
 <option value="WV"selected="selected">Charleston West Virginia</option>
 <option value="WY"selected="selected">Cheyenne Wyoming</option>
 </select>
+</h2>
 </div>
         <br /><br />
-        Trade:
-        <select name="trade" id="trade">
+        <h2>Trade:</h2>
+        <select name="trade" id="trade-contractor-page">
           <option value="" selected="selected">Painter</option>
           <option value="" selected="selected">Drywall</option>
           <option value="" selected="selected">HVAC</option>
@@ -257,7 +258,7 @@ export default () => html`
           <option value="" selected="selected">Plumber</option>
           <option value="" selected="selected">Concrete</option>
           <option value="" selected="selected">Roofer</option>
-        </select>
+        </select></h2>
         <br /><br />
         <!-- <link
           href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
