@@ -309,8 +309,10 @@ nav > .fa-bars{
 }
 #findpage{
   text-align: center;
-  background: darkgrey;
-  animation: mymove 5s infinite;
+  background-image: url(drill.jpg);
+  background-size: cover;
+  /* background: darkgrey; */
+  /* animation: mymove 5s infinite; */
   border-style: inset;
 }
 
@@ -318,7 +320,7 @@ nav > .fa-bars{
   50% {background-color: rgba(255,255,255, 0.5);} */
 /* } */
 .findcontractor {
-  color: black;
+  color: white;
   font-family:'Montserrat', sans-serif;
   padding-bottom: 30px;
   padding-top: 20px;
@@ -436,7 +438,9 @@ padding-right:40px;
 .cont-body {
   text-align: center;
   font-family:'Montserrat', sans-serif;
-  background-color:rgba(255,255,255, 0.5);
+  /* background-color:rgba(255,255,255, 0.5); */
+  background-image: url(worker.jpg);
+  background-size: cover;
 }
 
 .citystate {
