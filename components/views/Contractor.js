@@ -10,7 +10,7 @@ export default () => html`
     </div>
     <div class="cont-body">
       <!-- phone number input -->
-      <form action="/action_page.php">
+      <!-- <form action="/action_page.php"> -->
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname" /><br /><br />
         <label for="lname">Last name:</label>
@@ -26,7 +26,9 @@ export default () => html`
         pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
       />
 <div class="citystate">
-      <form name="form1" id="form1" action="/action_page.php">
+      <!-- <form name="form1" id="form1" action="/action_page.php"> -->
+      <form name="form1" id="form1">
+
         <!--end of phone number input -->
         City & State:
 <select name="location" id="location">
@@ -257,7 +259,7 @@ export default () => html`
           <option value="" selected="selected">Roofer</option>
         </select>
         <br /><br />
-        <link
+        <!-- <link
           href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
           rel="stylesheet"
           type="text/css"
@@ -265,7 +267,7 @@ export default () => html`
         <link
           rel="stylesheet"
           href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
-        />
+        /> -->
 
         <br /><br />
 

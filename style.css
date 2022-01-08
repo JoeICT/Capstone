@@ -4,19 +4,9 @@
 } */
 
 header {
-
 background-image: url("greyback.jpg");
 max-height: 290px;
-
-
-    }
-
-.navbar {
-    text-align: center;
-    text-shadow: 2px 2px 5px black ;
-    font-size: 20px;
-
-    }
+}
 
 
 
@@ -228,8 +218,10 @@ background-color: grey;
 
 
 .flexbox-login {
-  text-align: center;
-  padding-bottom: 40px;
+display: flex;
+justify-content: center;
+flex-grow: 4;
+justify-content: space-evenly;
   }
 .logheader {
   padding-bottom: 40px;
@@ -243,24 +235,24 @@ background-position: center;
 background-color: lightgrey;
 padding-bottom: 70px;
 }
-.flexbox-login > .button1 {
+/* .flexbox-login {
   padding-bottom: 220px;
+} */
+.button1 {
+  padding-bottom: 40px;
 }
-
 .costbystate {
   padding-top: 30px;
 
   /* hamburger bar*/
 }
-
 @media (max-width: 549px) {
   .hidden--mobile {
     display: none !important;
   }
 }
-
 @media (min-width: 550px){
-   nav > .fa-bars{
+nav > .fa-bars{
     display: none;
   }
 }
