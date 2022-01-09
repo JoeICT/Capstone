@@ -5,7 +5,7 @@ export default () => html`
     <div class="reshead"><h1><strong>Resources</strong></h1></div>
     <div class="flex-container">
       <div id="res1">
-        WatchDog Offender Search
+        <strong>WatchDog Offender Search</strong>
 
         <p><h6>
           <strong>
@@ -16,14 +16,14 @@ export default () => html`
           </h6>
         </p>
       </div>
-      <div id="res2">Horror Stories
+      <div id="res2"><strong>Horror Stories</strong>
         <p><h6><strong>
           Learn what to watch out for and hopefully avoid by reading some of these stories from customers who had bad experiences with the contractor that they hired.</strong>
         </h6>
         </p>
 
       </div>
-      <div id="res3">Red Flags
+      <div id="res3"><strong>Red Flags</strong>
         <p><h6><strong>
           Here you can read about "red flags", or things to watch out for when hiring a contractor.
           </strong>

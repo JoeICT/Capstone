@@ -189,6 +189,8 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   border: 1px solid;
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+
 }
 #res2 {
   text-align: center;
@@ -197,6 +199,8 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   border: 1px solid;
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+
 }
 #res3 {
   text-align: center;
@@ -205,11 +209,15 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   border: 1px solid;
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+
 }
 .flex-container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(27, 27, 27);
+  background-image: url(rolling.jpg);
+  background-size: cover;
+
 }
 
 .flex-container > div {
