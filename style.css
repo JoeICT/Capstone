@@ -103,6 +103,9 @@ input,
 .price-instructions{
   font-family:'Montserrat', sans-serif;
   font-size: medium;
+  background-color:inherit;
+  background-size: cover;
+
 }
 /*dropdown*/
 /* dropdown{

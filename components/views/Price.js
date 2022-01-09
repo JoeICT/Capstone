@@ -3,20 +3,6 @@ import html from "html-literal";
 export default () => html`
   <div class="calculate">
     <h1>Calculate your Square Footage</h1>
- <!-- cost per sqft calculator 2 -->
-  <!-- <script language="javascript" type="text/javascript"> -->
-  <!-- function calculate_square_feet()
-	{
-	var length=window.document.myForm.length.value;
-	var width=window.document.myForm.width.value;
-        var cost=window.document.myForm.cost.value;
-	var area=length*width;
-	var totalCost=cost*area;
-        alert("The specification is " + length*width + " square feet." + "\n The total cost is $" + totalCost);
-	}
-//   END HIDING -->
-<!--</script> -->
-</head>
 
 <body>
 <div class="price-instructions">
@@ -42,6 +28,24 @@ Cost (per square foot)
 <br /><br />
 <input type="button" value="Calculate Costs" onclick="calculate_square_feet()" />
 <input type="reset" />
+
+!-- sqft calculator JS -->
+<script>
+  function calculate_square_feet() {
+  var length = window.document.myForm.length.value;
+  var width = window.document.myForm.width.value;
+  var cost = window.document.myForm.cost.value;
+  var area = length * width;
+  var totalCost = cost * area;
+  alert(
+    "The specification is " +
+      length * width +
+      " square feet." +
+      "\n The total cost is $" +
+      totalCost
+  );
+}
+</script>
 </form>
 
 Enter the length (in feet), width (in feet), and cost per square feet for the project.
@@ -111,17 +115,3 @@ Enter the length (in feet), width (in feet), and cost per square feet for the pr
 
 </body>
 `;
-function calculate_square_feet() {
-  var length = window.document.myForm.length.value;
-  var width = window.document.myForm.width.value;
-  var cost = window.document.myForm.cost.value;
-  var area = length * width + 0.25;
-  var totalCost = cost * area;
-  alert(
-    "The specification is " +
-      length * width +
-      " square feet." +
-      "\n The total cost is $" +
-      totalCost
-  );
-}
