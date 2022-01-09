@@ -71,7 +71,7 @@ Enter the length (in feet), width (in feet), and cost per square feet for the pr
         <option value="IL" selected="selected">Illinois</option>
         <option value="IN" selected="selected">Indiana</option>
         <option value="IA" selected="selected">Iowa</option>
-        <option value="KS" selected="selected">Kansas .05</option>
+        <option value="KS" selected="selected">Kansas .50</option>
         <option value="KY" selected="selected">Kentucky</option>
         <option value="LA" selected="selected">Louisiana</option>
         <option value="ME" selected="selected">Maine</option>
