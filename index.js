@@ -93,8 +93,9 @@ router.hooks({
     if (page === "Home") {
       axios
         .get(
-          `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=st.%20louis`
+          `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=wichita`
         )
+        // st.%20louis`
         .then(response => {
           state.Home.weather = {};
           state.Home.weather.city = response.data.name;
