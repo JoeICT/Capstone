@@ -6,6 +6,7 @@
 header {
 background-image: url("greyback.jpg");
 max-height: 290px;
+
 }
 
 
@@ -71,16 +72,10 @@ color:rgb(255, 255, 255);
   justify-content: center;
   flex-grow: 1;
   padding-right: 160px;
-
   color:white;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 5px #dfdfdf;
   font-size: 200%;
-}
-
-.headline div {
-  width: 100px;
-  height: 100px;
 }
 
 /* footer and price page */
@@ -373,6 +368,10 @@ font-family:'Montserrat', sans-serif;
 
 
 /* home page */
+.weatherapi {
+  background-image: url(greyback.jpg);
+  color: white;
+}
 
 .welcomegreeting {
   text-align: center;
@@ -529,7 +528,7 @@ font-size: larger;
 nav > ul {
   display: flex;
   justify-content: space-evenly;
-  padding: 0 0;
+  /* padding: 1rem 0.9rem; */
   color: black;
   background-image: url("greyback.jpg");
 }
