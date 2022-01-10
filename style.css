@@ -12,6 +12,8 @@ max-height: 290px;
 
 
 
+
+
 /* .flexbox-container {
   display:flex;
 justify-content: center;
@@ -80,7 +82,6 @@ color:rgb(255, 255, 255);
   width: 100px;
   height: 100px;
 }
-
 
 /* footer and price page */
 
@@ -294,13 +295,23 @@ font-family:'Montserrat', sans-serif;
 }
 @media (min-width: 550px){
 nav > .fa-bars{
-    display: none;
   }
 }
 .headerBar{
   display: flex;
   flex-flow: row;
 }
+@media (max-width: 449px){
+  .headline{
+    text-align:center;
+}
+  }
+
+@media (max-width: 449px){
+  .headerImage{
+    display: none;
+}
+  }
 .headerImage {
   height: auto;
 }

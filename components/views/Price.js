@@ -29,28 +29,8 @@ Cost (per square foot)
 <input type="button" value="Calculate Costs" onclick="calculate_square_feet()" />
 <input type="reset" />
 
-!-- sqft calculator JS -->
-<script>
-  function calculate_square_feet() {
-  var length = window.document.myForm.length.value;
-  var width = window.document.myForm.width.value;
-  var cost = window.document.myForm.cost.value;
-  var area = length * width;
-  var totalCost = cost * area;
-  alert(
-    "The specification is " +
-      length * width +
-      " square feet." +
-      "\n The total cost is $" +
-      totalCost
-  );
-}
-</script>
 </form>
 
-Enter the length (in feet), width (in feet), and cost per square feet for the project.
-
-</div>
 
 <div class="costbystate">
 <div> <h3> This is the average cost per square foot for painting by each state. </h3>
@@ -115,3 +95,18 @@ Enter the length (in feet), width (in feet), and cost per square feet for the pr
 
 </body>
 `;
+//sqft calculator JS
+function calculate_square_feet() {
+  var length = window.document.myForm.length.value;
+  var width = window.document.myForm.width.value;
+  var cost = window.document.myForm.cost.value;
+  var area = length * width;
+  var totalCost = cost * area;
+  alert(
+    "The specification is " +
+      length * width +
+      " square feet." +
+      "\n The total cost is $" +
+      totalCost
+  );
+}
