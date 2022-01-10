@@ -59,6 +59,21 @@ function addEventListeners(st) {
   document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
+
+  document.getElementById("calculatorButton").addEventListener("click", () => {
+    var length = window.document.myForm.length.value;
+    var width = window.document.myForm.width.value;
+    var cost = window.document.myForm.cost.value;
+    var area = length * width;
+    var totalCost = cost * area;
+    alert(
+      "The specification is " +
+        length * width +
+        " square feet." +
+        "\n The total cost is $" +
+        totalCost
+    );
+  });
 }
 // router hooks
 

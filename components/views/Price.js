@@ -26,7 +26,7 @@ ft&nbsp;&nbsp;&nbsp;&nbsp;
 Cost (per square foot)
 <input type="text" name="cost" size="10,10" />
 <br /><br />
-<input type="button" value="Calculate Costs" onclick="calculate_square_feet()" />
+<input id="calculatorButton" type="button" value="Calculate Costs"  />
 <input type="reset" />
 
 </form>
@@ -34,7 +34,7 @@ Cost (per square foot)
 
 <div class="costbystate">
 <div> <h3> This is the average cost per square foot for painting by each state. </h3>
-  <h4>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work as well as numerous coats. But this will give you a good idea of what your job should cost</h4>
+  <h4>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work as well as numerous coats. But this will give you a good idea of what your job should cost. Costs also vary from location sometimes drastically. For example the labor cost to paint a home in California ranges from $2 to $4 per sqft. Where as in Kansas the average cost ranges from around .50 to $1.30 per sqft.</h4>
 </div>
 <form name="form1" id="prices-by-state" action="/action_page.php">
       City & State:
@@ -95,18 +95,3 @@ Cost (per square foot)
 
 </body>
 `;
-//sqft calculator JS
-function calculate_square_feet() {
-  var length = window.document.myForm.length.value;
-  var width = window.document.myForm.width.value;
-  var cost = window.document.myForm.cost.value;
-  var area = length * width;
-  var totalCost = cost * area;
-  alert(
-    "The specification is " +
-      length * width +
-      " square feet." +
-      "\n The total cost is $" +
-      totalCost
-  );
-}

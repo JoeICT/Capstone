@@ -12,15 +12,15 @@ export default () => html`
           This is where you can take a closer look into the person you are
           allowing in your home and potentially around your children.</strong>
           <br>
-          <a href="https://www.familywatchdog.us/">Offender Search!</a>
+          <a href="https://www.familywatchdog.us/"><span>Offender Search!</span></a>
           </h6>
         </p>
+        <div class="resimg2"></div>
       </div>
-      <div id="res2"><strong>Horror Stories</strong>
-        <p><h6><strong>
+      <div class="res2"><strong>Horror Stories</strong><p>
           Learn what to watch out for and hopefully avoid by reading some of these stories from customers who had bad experiences with the contractor that they hired.</strong>
-        </h6>
-        </p>
+        </p></div>
+        <div class="resimg"></div>
 
       </div>
       <div id="res3"><strong>Red Flags</strong>
@@ -32,7 +32,7 @@ export default () => html`
     </div>
   </head>
   <div class="contact">
-    <h4>Questions? Comments? Concerns? feel free to email</h4>
+  <h4>Questions? Comments? Concerns? feel free to email</h4>
   </div>
   <div class="FORM">
     <form action="https://formspree.io/f/xrgjbanz" method="POST">
