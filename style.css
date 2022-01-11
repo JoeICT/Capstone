@@ -76,6 +76,8 @@ color:rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 5px #dfdfdf;
   font-size: 200%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 }
 
 /* footer and price page */
@@ -333,6 +335,8 @@ font-family:'Montserrat', sans-serif;
 
 .headerImage {
   height: auto;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 }
 .calculate {
   text-align: center;
