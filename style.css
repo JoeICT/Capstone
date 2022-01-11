@@ -180,8 +180,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
 .reshead {
   font-family:'Montserrat', sans-serif;
   text-align: center;
-
-  ;
+  padding-top:40px;
 }
 #res1 {
   font-family:'Montserrat', sans-serif;
@@ -193,6 +192,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   border-radius: 15px;
   background-image:url(craftsman.jpg);
   background-size: cover;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   width:550px;
   height:770px;
 
@@ -216,7 +216,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   background-image: url(rolling.jpg);
   background-size: cover;
   border-radius: 30px;
-
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .resimg2 {
   /* background-image:url(craftsman.jpg);
@@ -244,6 +244,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
 }
 span {
 background-color:rgba(255, 255, 255, 0.8);
+color:black;
 border-radius: 4px;
 }
 /* #res3 span {
@@ -274,11 +275,11 @@ background-color:rgba(255, 255, 255, 0.8);
 
 .FORM {
 text-align: center;
-background-color: grey;
+background-color: lightgrey;
 }
 .contact {
 text-align: center;
-background-color: grey;
+background-color: lightgrey;
 }
 
 /* Login page  */
@@ -296,7 +297,7 @@ justify-content: space-evenly;
   padding-left: 30px;
   padding-right:30px;
 text-align: center;
-background-color: rgba(255, 255, 255, 0.5);
+background-color:rgba(255, 255, 255, 0.5);
 }
 .whatareyou {
 text-align: center;
@@ -329,11 +330,22 @@ font-family:'Montserrat', sans-serif;
   flex-flow: row;
 }
 
+
 .headerImage {
   height: auto;
 }
 .calculate {
   text-align: center;
+  padding-top:100px;
+}
+.calculate > h1 {
+  font-family:'Montserrat', sans-serif;
+  color:black;
+  background-color:black;
+  animation: mymove 5s infinite;
+  border-radius: 30px;
+
+
 }
 /* #findpage {
   text-align: center;
@@ -369,8 +381,11 @@ font-family:'Montserrat', sans-serif;
 
 /* home page */
 .weatherapi {
-  background-image: url(greyback.jpg);
-  color: white;
+  /* background-image: url(greyback.jpg); */
+  color: black;
+  font-family:'Montserrat', sans-serif;
+font-weight: bold;
+
 }
 
 .welcomegreeting {
@@ -434,7 +449,6 @@ font-family:'Montserrat', sans-serif;
   padding-top:19px;
   font-size: larger;
   font-family:'Montserrat', sans-serif;
-
 }
 #trade {
 padding-right:51px;
@@ -475,7 +489,11 @@ padding-right:40px;
   text-shadow: 2px 2px grey;
   animation: mymove 5s infinite;
   font-family:'Montserrat', sans-serif;
-  }
+  height:120px;
+}
+#cont-info > h1 {
+padding-top: 10px
+}
   #cont-info:hover{
     color: black;
     font-family:'Montserrat', sans-serif;
@@ -503,12 +521,13 @@ padding-right:6px;
 padding-bottom: 190px;
 font-family:'Montserrat', sans-serif;
 font-size: larger;
+color:black;
 }
 
 #trade-contractor-page {
   font-family:'Montserrat', sans-serif;
-
   font-size: 19px;
+  color:black;
 }
 #lname {
   padding-right: 0px;
@@ -525,32 +544,56 @@ font-size: larger;
 
 
 /* nav */
+/* nav > ul {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:122px;
+  padding-top:180px;
+  /* padding-top: 175px; */
+ /* position:fixed; */
+
+
+ /* top:0;
+  z-index: 1030; to prevent the navbar getting covered up by other content
+ } */
 nav > ul {
   display: flex;
+  color:white;
   justify-content: space-evenly;
-  /* padding: 1rem 0.9rem; */
-  color: black;
-  background-image: url("greyback.jpg");
+  padding: 1rem 0.9rem;
+  height:20px;
+  background-color: white;
+   /* background-color: rgba(255,255,255, 0.2); */
+  /*experiment nav follow page*/
+  /* position: fixed; */
+  /* top: 0; */
+  /* z-index: 1030; to prevent the navbar getting covered up by other content */
 }
 
 nav > ul > li {
   display: inline-block;
   text-decoration-color: black;
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
   /* background-color: rgba(255,255,255, 0.5); */
   font-size:large;
+
 }
 
 /* default link */
 a:link {
-  color:white;
+  color:black;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
 }
 /* visited link */
 a:visited {
-  color: white;
+  color: black;
   font-size:x-large;
 }
 
@@ -560,6 +603,7 @@ a:hover {
   font-family:'Montserrat', sans-serif;
   font-size:xx-large;
   background-color:whitesmoke;
+  transition: 0.3s;
 }
 
 /* selected link */

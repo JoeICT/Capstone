@@ -11,18 +11,6 @@
 //   render();
 // }
 
-// //js functions (hamburger)
-// function myFunction() {
-//   var x = document.getElementById("myLinks");
-//   if (x.style.display === "block") {
-//     x.style.display = "none";
-//   } else {
-//     x.style.display = "block";
-//   }
-//
-//   });
-// });
-
 import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import axios from "axios";
@@ -75,6 +63,7 @@ function addEventListeners(st) {
     );
   });
 }
+
 // router hooks
 
 // router
@@ -112,7 +101,7 @@ router.hooks({
 //ADD ROUTER HERE ...
 router
   .on({
-    "/": () => render(state.Home),
+    "/": () => render(state.Login),
     ":page": params => render(state[capitalize(params.page)])
   })
   .resolve();
