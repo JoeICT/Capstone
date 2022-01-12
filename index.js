@@ -34,7 +34,17 @@ ${Footer()}
   router.updatePageLinks();
 
   addEventListeners(st);
+
+  // login Home and Contractor button
+  // loginButtonClick();
 }
+
+// function loginButtonClick(st) {
+//   document.getElementById("contractor").addEventListener("click", event => {
+//     event.preventDefault();
+//     render(state.Contractor);
+//   });
+// }
 
 function addEventListeners(st) {
   // add event listeners to Nav items for navigation
@@ -102,6 +112,6 @@ router.hooks({
 router
   .on({
     "/": () => render(state.Login),
-    ":page": params => render(state[capitalize(params.page)])
+    ":view": params => render(state[capitalize(params.view)])
   })
   .resolve();
