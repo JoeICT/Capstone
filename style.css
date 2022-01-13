@@ -183,6 +183,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   font-family:'Montserrat', sans-serif;
   text-align: center;
   padding-top:40px;
+
 }
 #res1 {
   font-family:'Montserrat', sans-serif;
@@ -219,6 +220,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   background-size: cover;
   border-radius: 30px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 }
 .resimg2 {
   /* background-image:url(craftsman.jpg);
@@ -255,24 +257,27 @@ background-color:rgba(255, 255, 255, 0.8);
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+
   /* background-image: url(mudknife.jpg); */
-  background-color: white;
-  background-size: cover;
+  /* background-color: white; */
+  /* background-size: cover; */
 
 }
 .flex-container > .resimg {
+  justify-self: center;
+  background-size: cover;
   height:600px;
   width: 900px;
-  justify-content: center;
+  padding-left:0;
+  padding-right:0;
 }
 .flex-container > div {
   /* background-color: #f1f1f1; */
   margin: 30px;
   padding: 20px;
   font-size: 30px;
-  height:min-content;
-}
+  height:min-content;}
 /* This is for the resources page  */
 
 .FORM {
@@ -315,12 +320,13 @@ background-position: center;
 background-color: lightgrey;
 padding-bottom: 70px;
 font-family:'Montserrat', sans-serif;
+padding-top:60px;
 }
 /* .flexbox-login {
   padding-bottom: 220px;
 } */
-.button1 {
-  padding:0;
+.flexbox-login > .button1 {
+  padding:9px;
 }
 .costbystate {
   padding-top: 30px;
@@ -378,7 +384,7 @@ font-family:'Montserrat', sans-serif;
   color: white;
   font-family:'Montserrat', sans-serif;
   padding-bottom: 30px;
-  padding-top: 20px;
+  padding-top: 49px;
   text-shadow: 2px 2px grey;
 }
 
@@ -400,7 +406,7 @@ font-weight: bold;
   font-family:'Montserrat', sans-serif;
   border-radius: 17px;
   border-style: groove;
-  padding-top:25px
+  padding-top:37px;
 
 }
 
@@ -497,6 +503,7 @@ padding-right:40px;
 }
 #cont-info > h1 {
 padding-top: 10px
+
 }
   #cont-info:hover{
     color: black;
@@ -635,6 +642,9 @@ footer > a {
 @media (max-width: 550px){
   .headline{
     text-align:center;
+    /* at mobile background color switch */
+
+
 }
   }
 
@@ -662,3 +672,105 @@ nav > ul {
     display: none;
   }
   }
+  @media (max-width: 550px){
+    .headerImage{
+      text-align:justify;
+      background-color: white;
+      color:black;
+      text-shadow: 6px;
+  }
+    }
+    @media (max-width: 550px){
+    a:link {
+      background-color: white;
+      color:white;
+border-radius: 7px;
+
+    }}
+@media(max-width: 550px) {
+  .headline {
+    padding:0;
+}
+}
+@media(max-width: 550px) {
+  .cont-body {
+    display: flex;
+flex-direction: column;
+
+}}
+@media(max-width: 550px) {
+.resimg {
+display: none;
+}
+}
+@media(max-width: 550px) {
+.res2 {
+padding:0px;
+ width: 290px;
+padding-top:40px;
+}
+}
+@media(max-width: 550px) {
+#res1 {
+  width:290px;
+  /* position: absolute; */
+  padding-bottom: 50px;
+}
+}
+@media(max-width: 550px) {
+.home-page-par1 {
+  display: flex;
+  justify-items: center;
+  padding:0px;
+}}
+@media(max-width: 550px) {
+  .home-page-par2 {
+    display:flex;
+  justify-items: center ;
+  padding-left:0px;
+  padding-right:0px;
+
+  }
+}
+@media(max-width: 550px) {
+#home-body {
+  justify-items: center;
+  padding:0px;
+}
+}
+@media(max-width:550px) {
+#location {
+  padding:0px;
+  width:350px;
+
+}
+}
+@media(max-width:550px) {
+#cont-info {
+  /* display: inline-flex; */
+  width:366px;
+  align-items: center;
+  padding:0px;
+  font-size:10px;
+  justify-items:center;
+
+}
+}
+/*  */
+/* @media(max-width:550px) {
+.flex-container > div > h3{
+  width:9px;
+  text-align:center
+
+ }
+} */
+@media(max-width:550px){
+.reshead{
+  padding-top:0px;
+}
+}
+@media(max-width:550px) {
+  .citystate{
+align-items: center;
+  }
+}

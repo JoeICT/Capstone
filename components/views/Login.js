@@ -15,9 +15,9 @@ export default () => html`
 
       <div class="flexbox-login">
     <a href="Home">
-      <div class="button1"><button><h1>Homeowner</h1></button></div>
+      <div class="./button1"><button><h3>Homeowner</h3></button></div>
     <a href="Contractor">
-    <div class="button2"><button><h1>Contractor</h1></button></div>
+    <div class="./button2"><button><h3>Contractor</h3></button></div>
     </a>
   </div></div>
 `;
