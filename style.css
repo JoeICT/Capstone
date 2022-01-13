@@ -748,7 +748,7 @@ padding-top:40px;
 @media(max-width:550px) {
 #cont-info {
   /* display: inline-flex; */
-  width:366px;
+  width:408px;
   align-items: center;
   padding:0px;
   font-size:10px;
