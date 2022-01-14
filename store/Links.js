@@ -1,6 +1,6 @@
 export default [
   { title: "Login", text: "Login" },
-  { title: "Home", text: "Home" },
+  { title: "Home", text: "About" },
   { title: "Find", text: "Find A Contractor" },
   { title: "Price", text: "Price Your Job" },
   { title: "Resources", text: "Resources" },

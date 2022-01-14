@@ -683,7 +683,7 @@ nav > ul {
     @media (max-width: 550px){
     a:link {
       background-color: white;
-      color:white;
+      color:black;
 border-radius: 7px;
 
     }}
