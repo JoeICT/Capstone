@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const priceSchema = new mongoose.Schema({
+const findcontSchema = new mongoose.Schema({
   First: String,
   Last: String,
   Company: String,
@@ -9,9 +9,9 @@ const priceSchema = new mongoose.Schema({
   Trade: String
 });
 
-const Price = mongoose.model("Price", priceSchema);
+const Findcont = mongoose.model("Findcont", findcontSchema);
 
 module.exports = {
-  schema: priceSchema,
-  model: Price
+  schema: findcontSchema,
+  model: Findcont
 };

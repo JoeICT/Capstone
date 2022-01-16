@@ -1,36 +1,36 @@
 const { Router } = require("express");
-const contractor = require("../models/Contractor");
+const findcont = require("../models/Findcont");
 const router = Router();
 
 // Create record in MongoDB
 router.post("/", (request, response) => {
-  const newContractor = new contractor.model(request.body);
-  newContractor.save((err, contractor) => {
-    return err ? response.sendStatus(500).json(err) : response.json(contractor);
+  const newFindcont = new findcont.model(request.body);
+  newFindcont.save((err, findcont) => {
+    return err ? response.sendStatus(500).json(err) : response.json(findcont);
   });
 });
 
 router.get("/", (request, response) => {
-  contractor.model.find({}, (error, data) => {
+  findcont.model.find({}, (error, data) => {
     if (error) return response.sendStatus(500).json(error);
     return response.json(data);
   });
 });
 router.get("/:id", (request, response) => {
-  contractor.model.findById(request.params.id, (error, data) => {
+  findcont.model.findById(request.params.id, (error, data) => {
     if (error) return response.sendStatus(500).json(error);
     return response.json(data);
   });
 });
 router.delete("/:id", (request, response) => {
-  contractor.model.findByIdAndRemove(request.params.id, {}, (error, data) => {
+  findcont.model.findByIdAndRemove(request.params.id, {}, (error, data) => {
     if (error) return response.sendStatus(500).json(error);
     return response.json(data);
   });
 });
 router.put("/:id", (request, response) => {
   const body = request.body;
-  contractor.model.findByIdAndUpdate(
+  findcont.model.findByIdAndUpdate(
     request.params.id,
     {
       $set: {
