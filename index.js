@@ -1,16 +1,3 @@
-// import { Main, Header, Nav, Footer } from "./components";
-
-// //declare a function named render
-// function render() {
-//   document.getElementById("root").innerHTML = `
-// ${Header(st)}
-// ${Nav(state.links)}
-// ${Main(st)}
-// `;
-
-//   render();
-// }
-
 import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import axios from "axios";
