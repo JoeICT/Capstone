@@ -25,7 +25,8 @@ export default st => html`
 <br><br>
   <div class="home-page-par2">
     <h2><strong><span>
-    Plan to gather at least three estimates from various contractors before you make a decision. More quotes (say five or six) will give you a clearer picture of how these companies stack up against each other. Not only will you get more perspective on appropriate costs, but also you'll get an idea of the caliber of work that each contractor will provide. For example, one contractor might offer a bargain rate and marginal work; another's high bid could indicate quality.</span>
+      This application was created to assist both customer and contractor by providing a resource that allows the interaction to be more smooth, easy and understanding for all parties involved. If used correctly a customer can effectively give themselves a rough estimate before ever making a phone call to a contractor. Then when you do make that call you will already have a rough estimate of what to expect as far as costs are concerned. Provided are also resources to help understand what to look for in a contractor and what to try and avoid as well.
+    </span>
     </strong>
     </h2>
   </div>

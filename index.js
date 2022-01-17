@@ -45,6 +45,48 @@ function addEventListeners(st) {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
 
+  // contractor / find api info
+
+  // if (st.view === "Contracotor") {
+  //   document.querySelector("form").addEventListener("submit", event => {
+  //     event.preventDefault();
+
+  //     const inputList = event.target.elements;
+  //     console.log("Input Element List", inputList);
+
+  // // const toppings = [];
+  // // // Interate over the toppings input group elements
+  // // for (let input of inputList.toppings) {
+  // //   // If the value of the checked attribute is true then add the value to the toppings array
+  // //   if (input.checked) {
+  // //     toppings.push(input.value);
+  // //   }
+  // // }
+
+  // const requestData = {
+  //   customer: inputList.customer.value,
+  //   crust: inputList.crust.value,
+  //   cheese: inputList.cheese.value,
+  //   sauce: inputList.sauce.value,
+  //   toppings: toppings
+  // };
+  // console.log("request Body", requestData);
+
+  // axios
+  //   .post(`${process.env.FIND_CONTRACTOR_API_URL}`, requestData)
+  //   .then(response => {
+  // // Push the new find onto the Find state finds attribute, so it can be displayed in the find list
+  //           state.Findcont.findconts.push(response.data);
+  //           router.navigate("/Find");
+  //         })
+  //         .catch(error => {
+  //           console.log("It puked", error);
+  //         });
+  //     });
+  //   }
+  // }
+  // end contractor / find api
+
   document.getElementById("calculatorButton").addEventListener("click", () => {
     var length = window.document.myForm.length.value;
     var width = window.document.myForm.width.value;
@@ -60,7 +102,6 @@ function addEventListeners(st) {
     );
   });
 }
-
 // router hooks
 
 // router
@@ -94,6 +135,19 @@ router.hooks({
     }
   }
 });
+// find contractor api
+//   if (page === "Find") {
+//     axios
+//       .get(`${process.env.FIND_CONTRACTOR_API_URL}`)
+//       .then(response => {
+//         state.Findcont.findconts = response.data;
+//         done();
+//       })
+//       .catch(error => {
+//         console.log("It puked", error);
+//       });
+// }
+// end find contractor api
 
 //ADD ROUTER HERE ...
 router

@@ -1,26 +1,14 @@
-/*header*/
-/* .flexbox {
-  display:flex;
-} */
-
 header {
 background-image: url("greyback.jpg");
 max-height: 290px;
-
 }
 
-
-
-
-
-
-
-/* .flexbox-container {
+.flexbox-container {
   display:flex;
 justify-content: center;
 }
 
-.flexbox-item-0{
+/*.flexbox-item-0{
   width: 200px;
   margin: 5px;
 border: 3px solid #333;
@@ -105,85 +93,14 @@ input,
   background-size: cover;
 
 }
-/*dropdown*/
-/* dropdown{
-  display: inline-block;
-  margin: 20px 50px;
-}
-dropdown label, dropdown ul li{
-  display: block;
-  width: px;
-  background: #191919;
-  opacity: 0.9;
-  padding: 15px 20px;
-}
-dropdown label:hover, dropdown ul li:hover{
-  background: #4D4D4D;
-  color: white;
-  cursor: pointer;
-}
-dropdown label{
-  color: #B2B2B2;
-  border-left: 4px solid #1ABC9C;
-  border-radius: 0 5px 0 0;
-  position: relative;
-  z-index: 2;
-}
-dropdown input{
-  display: none;
-}
-dropdown input ~ ul{
-  position: relative;
-  visibility: hidden;
-  opacity: 0;
-  top: -20px;
-  z-index: 1;
-}
-dropdown input:checked + label{
-  background: #4D4D4D;
-  color: white;
-}
-
-dropdown input:checked ~ ul{
-  visibility: visible;
-  opacity: 1;
-  top: 0;
-}
-$colors: #FFFFFF, #0072B5, #2C3E50;
-
-@for $i from 1 through length($colors) {
-  dropdown ul li:nth-child(#{$i}) {
-    border-left: 4px solid nth($colors, $i);
-    .fa{
-      color: nth($colors, $i);
-    }
-    &:hover {
-        background: nth($colors, $i);
-        color: white;
-      .fa{
-        color: white;
-      }
-    }
-  }
-}
-
-.animate{
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -ms-transition: all .3s;
-  transition: all .3s;
-  backface-visibility:hidden;
-  -webkit-backface-visibility:hidden; /* Chrome and Safari */
-  /*-moz-backface-visibility:hidden;*/ /* Firefox*/
- /* -ms-backface-visibility:hidden; /*Internet Explorer*/
 
 /* resources page  */
 .reshead {
   font-family:'Montserrat', sans-serif;
   text-align: center;
   padding-top:40px;
-
+  align-content: center;
+margin:0;
 }
 #res1 {
   font-family:'Montserrat', sans-serif;
@@ -198,7 +115,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   width:550px;
   height:770px;
-
+margin:0;
   align-self: center;
 }
 .res2 {
@@ -208,26 +125,30 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   /* border: 1px solid; */
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
-  background-color: white;
+  background-color:rgba(255, 255, 255, 0.5) ;
   /* background-image: url(screws.jpg); */
   background-size: cover;
   height: 675px;
   width: 800px;
   align-self: center;
+  align-content: center;
+  margin:0;
+  padding-top:40px;
 }
 .resimg {
   background-image: url(rolling.jpg);
+  align-self: center;
   background-size: cover;
   border-radius: 30px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin:0;
 
 }
 .resimg2 {
-  /* background-image:url(craftsman.jpg);
-  background-size: cover; */
   border-radius: 30px;
   height: 400px;
   width: 600px;
+  align-content: center;
 }
 /* #res2 span {
   background-color:rgba(255, 255, 255, 0.8);
@@ -238,13 +159,7 @@ $colors: #FFFFFF, #0072B5, #2C3E50;
   background-color: white;
   font-family:'Montserrat', sans-serif;
   font-size:30px;
-  /* border: 1px solid; */
-  padding: 0.5rem 0.5rem;
-  /* border-radius: 5px; */
-  /* background-size: cover; */
-  /* height: 590px;
-  width: 550px; */
-  align-self: center;
+  width:900px;
 }
 span {
 background-color:rgba(255, 255, 255, 0.8);
@@ -259,9 +174,9 @@ background-color:rgba(255, 255, 255, 0.8);
   display: flex;
   flex-direction:column;
 
-  /* background-image: url(mudknife.jpg); */
-  /* background-color: white; */
-  /* background-size: cover; */
+  background-image: url(mudknife.jpg);
+  background-color: white;
+   background-size: cover;
 
 }
 .flex-container > .resimg {
