@@ -23,8 +23,7 @@ export default () => html`
         </p></span></div>
         <div class="resimg"></div>
 
-      </div>
-      <div id="res3"><h4><strong></strong></h4>
+      <div id="res3"><h4><strong>What to look for in a contractor</strong></h4>
         <p>
           Here you can read about "red flags", or things to watch out for when hiring a contractor.
           Plan to gather at least three estimates from various contractors before you make a decision. More quotes (say five or six) will give you a clearer picture of how these companies stack up against each other. Not only will you get more perspective on appropriate costs, but also you'll get an idea of the caliber of work that each contractor will provide. For example, one contractor might offer a bargain rate and marginal work; another's high bid could indicate quality.

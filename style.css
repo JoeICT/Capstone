@@ -125,7 +125,7 @@ margin:0;
   /* border: 1px solid; */
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
-  background-color:rgba(255, 255, 255, 0.5) ;
+  background-color:rgba(255, 255, 255, 0.8) ;
   /* background-image: url(screws.jpg); */
   background-size: cover;
   height: 675px;
@@ -133,7 +133,10 @@ margin:0;
   align-self: center;
   align-content: center;
   margin:0;
+  font-weight: bold;
   padding-top:40px;
+border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .resimg {
   background-image: url(rolling.jpg);
@@ -142,42 +145,32 @@ margin:0;
   border-radius: 30px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   margin:0;
-
 }
-.resimg2 {
-  border-radius: 30px;
-  height: 400px;
-  width: 600px;
-  align-content: center;
-}
-/* #res2 span {
-  background-color:rgba(255, 255, 255, 0.8);
-  }*/
 #res3 {
   text-align: center;
   color: black;
-  background-color: white;
+  background-color:rgba(255, 255, 255, 0.8) ;
   font-family:'Montserrat', sans-serif;
   font-size:30px;
-  width:900px;
+  font-weight:bold;
+  /* width:900px; */
+  padding-right:0;
+  padding-left:0;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 span {
 background-color:rgba(255, 255, 255, 0.8);
 color:black;
 border-radius: 4px;
 }
-/* #res3 span {
-background-color:rgba(255, 255, 255, 0.8);
-}*/
-
 .flex-container {
   display: flex;
   flex-direction:column;
-
   background-image: url(mudknife.jpg);
   background-color: white;
-   background-size: cover;
-
+  background-size: cover;
+  /* background-attachment: fixed; */
 }
 .flex-container > .resimg {
   justify-self: center;
@@ -220,12 +213,13 @@ justify-content: space-evenly;
   padding-right:30px;
 text-align: center;
 background-color:rgba(255, 255, 255, 0.5);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .whatareyou {
 text-align: center;
 padding-top: 5px;
-background-color: rgba(255, 255, 255, 0.7);
-
+background-color: rgba(255, 255, 255, 0.5);
+box-shadow: rgba(180, 180, 180, 0.4) 0px 5px, rgba(180, 180, 180, 0.3) 0px 10px, rgba(73, 73, 73, 0.2) 0px 15px, rgba(73, 73, 73, 0.1) 0px 20px, rgba(73, 73, 73, 0.05) 0px 25px;
 }
 .loginbody {
 background-image: url("painter.jpeg");
@@ -237,9 +231,7 @@ padding-bottom: 70px;
 font-family:'Montserrat', sans-serif;
 padding-top:60px;
 }
-/* .flexbox-login {
-  padding-bottom: 220px;
-} */
+
 .flexbox-login > .button1 {
   padding:9px;
 }
@@ -272,11 +264,6 @@ padding-top:60px;
 
 
 }
-/* #findpage {
-  text-align: center;
-  background-color: lightgrey;
-  border-style: inset;
-} */
 .submit-find {
   padding-bottom:90px;
   font-size: larger;
@@ -322,7 +309,7 @@ font-weight: bold;
   border-radius: 17px;
   border-style: groove;
   padding-top:37px;
-
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 #home-body {
@@ -340,13 +327,10 @@ font-weight: bold;
   justify-content: center;
   padding-left:90px;
   padding-right: 90px;
-    /* max-width: 550px;
-    padding: 40px;
-    padding-left: 300px;
-    padding-right: 300px; */
   border-style: groove;
   border-radius: 17px;
   background: rgba(255,255,255, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
 
 .home-page-par2 {
@@ -355,13 +339,10 @@ font-weight: bold;
   flex-shrink:3;
   padding-left:90px;
   padding-right: 90px;
-  /* max-width: 550px;
-  padding: 40px;
-  padding-left: 300px;
-  padding-right: 300px; */
   border-style: groove;
   border-radius: 17px;
   background: rgba(255,255,255, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
 /* Contractor page */
 #cname {
@@ -689,3 +670,5 @@ padding-top:40px;
 align-items: center;
   }
 }
+
+

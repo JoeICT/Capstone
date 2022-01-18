@@ -2,6 +2,7 @@ import html from "html-literal";
 
 export default () => html`
   <div class="loginbody">
+
     <div class="logheader">
       <h1>
        <span> Welcome to the honest contractor page. Your pre-requisite to hiring a
@@ -15,9 +16,9 @@ export default () => html`
 
       <div class="flexbox-login">
     <a href="Home">
-      <div class="./button1"><button><h3>Homeowner</h3></button></div>
+      <div class="button1"><button><h3>Homeowner</h3></button></div>
     <a href="Contractor">
-    <div class="./button2"><button><h3>Contractor</h3></button></div>
+    <div class="button2"><button><h3>Contractor</h3></button></div>
     </a>
   </div></div>
 `;
