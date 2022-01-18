@@ -23,15 +23,15 @@ ${Footer()}
   addEventListeners(st);
 
   // login Home and Contractor button
-  // loginButtonClick();
+  loginButtonClick();
 }
 
-// function loginButtonClick(st) {
-//   document.getElementById("contractor").addEventListener("click", event => {
-//     event.preventDefault();
-//     render(state.Contractor);
-//   });
-// }
+function loginButtonClick(st) {
+  document.getElementById("contractor").addEventListener("click", event => {
+    event.preventDefault();
+    render(state.Contractor);
+  });
+}
 
 function addEventListeners(st) {
   // add event listeners to Nav items for navigation
@@ -87,6 +87,20 @@ function addEventListeners(st) {
   // }
   // end contractor / find api
 
+  // linear foot calculator
+  document.getElementById("calculatorButton2").addEventListener("click", () => {
+    var length = window.document.myForm.length.value;
+    var cost = window.document.myForm.cost.value;
+    var totalCost = cost * length;
+    alert(
+      "The specification is " +
+        length +
+        " Linear Feet." +
+        "\n The total cost is $" +
+        totalCost
+    );
+  });
+  // sqft calculator
   document.getElementById("calculatorButton").addEventListener("click", () => {
     var length = window.document.myForm.length.value;
     var width = window.document.myForm.width.value;
@@ -102,6 +116,7 @@ function addEventListeners(st) {
     );
   });
 }
+
 // router hooks
 
 // router

@@ -14,7 +14,7 @@ export default () => html`
   After you have done this process for each wall that you want painted you will then take the each measurement and input them into the calculator one wall at a time. Then input the average cost per sqft per state to pain as provided in the dropdown menu below. After that click submit and reset when you want to check the cost of another wall. Just repeat the same process in the calculator for each wall and you will effectively have a rough estimate of labor cost to paint before ever having to call a contractor. This same process can be applied to anything that is measured in sqft. For example you could repeat this process for flooring, how much material you will need etc.</strong></p>
 </div>
 
-
+<h1>Square Footage Calculator</h1>
 <div align="center">
 
 <form name="myForm">
@@ -31,6 +31,7 @@ Cost (per square foot)
 <input type="reset" />
 
 </form>
+
 
 
 <div class="costbystate">
@@ -94,5 +95,22 @@ Cost (per square foot)
       </select>
 </div>
 
+<br><br>
+
+<div class="linearcalc"><h1>Linear Footage Calculator</h1></div>
+<div align="center">
+
+<form name="myForm2">
+Length / Linear Footage
+<input type="text" name="length" size="5,5" />
+ft&nbsp;&nbsp;&nbsp;&nbsp;
+Cost (per linear foot)
+<input type="text" name="cost" size="10,10" />
+<br /><br />
+<input id="calculatorButton2" type="button" value="Calculate Costs"  />
+<input type="reset" />
+
+</form>
+<br><br>
 </body>
 `;

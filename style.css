@@ -261,8 +261,13 @@ padding-top:60px;
   background-color:black;
   animation: mymove 5s infinite;
   border-radius: 10px;
-
-
+}
+.linearcalc {
+font-family:'Montserrat', sans-serif;
+color:black;
+background-color:black;
+animation: mymove 5s infinite;
+border-radius: 10px;
 }
 .submit-find {
   padding-bottom:90px;
