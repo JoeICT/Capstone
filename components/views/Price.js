@@ -36,10 +36,10 @@ Cost (per square foot)
 
 <div class="costbystate">
 <div> <h3> This is the average cost per square foot for painting by each state. </h3>
-  <h4>Note that this is not a standard and other things can change the overall price such as lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work as well as numerous coats. But this will give you a good idea of what your job should cost. Costs also vary from location sometimes drastically. For example the labor cost to paint a home in California ranges from $2 to $4 per sqft. Where as in Kansas the average cost ranges from around .50 to $1.30 per sqft. Often times contractors will charge per linear ft as well for things such as trim boards. Calculating the cost per linear foot is very straight forward. You simply add the linear feet to the cost per linear foot.</h4>
+  <h4>Note that this is not a standard and other things can change the overall price such as materials used, lots of windows that require more time and tedious brushing and detail to work around or wall repairs and prep work as well as numerous coats. But this will give you a good idea of what your job should cost. Costs also vary from location sometimes drastically. For example the cost to paint a home in Connecticut ranges from $2.27 - $4.08 per sqft. Where as in Kansas the average cost ranges from around .80 to $2.30 per sqft. Often times contractors will charge per linear ft as well for things such as trim boards. Calculating the cost per linear foot is very straight forward. You simply add the linear feet to the cost per linear foot.</h4>
 </div>
 <form name="form1" id="prices-by-state" action="/action_page.php">
-      City & State:
+      State:
       <select name="location" id="price-state">
         <option value="AL" selected="selected">Alabama $1.20 - $2.63</option>
         <option value="AK" selected="selected">Alaska $0.85 - $1.55</option>
