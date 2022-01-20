@@ -260,16 +260,6 @@ export default () => html`
           <option value="" selected="selected">Roofer</option>
         </select></h2>
         <br /><br />
-        <!-- <link
-          href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
-        /> -->
-
         <br /><br />
 
         <br /><br />
