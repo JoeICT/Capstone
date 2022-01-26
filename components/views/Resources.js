@@ -24,7 +24,7 @@ export default () => html`
 Posted by /soulbarn from reddit:
 <br><br>
 Uninsulated wall, I’m cold..
-We had some windows replaced this summer, and the contractor - who was hired by the previous owner -0 did an awful job. We’ve corrected most of his mistakes, but one of the bedrooms where the window was replaced is freezing cold, and I just figured out why: there’s no insulation in the area from the window bottom to the floor. What’s the best way to improve the warmth of the room without tearing out the dry wall and actually insulating it? Aesthetics count a bit, though most of the wall is hidden by a desk sitting against it.
+We had some windows replaced this summer, and the contractor who was hired by the previous owner did an awful job. We’ve corrected most of his mistakes, but one of the bedrooms where the window was replaced is freezing cold, and I just figured out why: there’s no insulation in the area from the window bottom to the floor. What’s the best way to improve the warmth of the room without tearing out the dry wall and actually insulating it? Aesthetics count a bit, though most of the wall is hidden by a desk sitting against it.
 <br><br>
 posted by / ImALittleTeapotCat from reddit:
 <br><br>
