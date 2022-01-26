@@ -64,7 +64,7 @@ I've never left negative feedback on any review site because I think those sites
     </div>
   </head>
   <div class="contact">
-  <h4>Questions? Comments? Concerns? feel free to email</h4>
+  <h4>Questions? Comments? Concerns? Improvements? feel free to email</h4>
   </div>
   <div class="FORM">
     <form action="https://formspree.io/f/xrgjbanz" method="POST">
