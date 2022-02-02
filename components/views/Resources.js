@@ -38,7 +38,7 @@ In terms of how to be a "good" contractor: do what you say and say what you mean
 <br><br>
 posted by / le_nico from reddit:
 <br><br>
-I've been lucky, and my partner and I have done a lot of work ourselves, but we know when we really need to hire in pros. Mostly the worst of it is people not getting back to us or just being a bit messy--like drifts of cellulose insulation floating down the block after our siding guys had an accident--but the most recent contractor rankled badly in terms of communication.
+I've been lucky, and my partner and I have done a lot of work ourselves, but we know when we really need to hire in pros. Mostly the worst of it is people not getting back to us or just being a bit messy--like drifts of cellulose insulation floating down the block after our siding guys had an accident but the most recent contractor rankled badly in terms of communication.
 <br>
 We wanted a backwater valve and figured it was a good time to move the sewer cleanout outside. First day of work, two guys showed up, but I had to introduce myself. They left after half a day without telling me that they weren't going to come back the second day (I called and got a lame excuse), then they came back the third day and worked a half day. The initial plan involved hooking up to the neighbor's more updated pvc wye (we share a sewer line to the road and want to replace at a later date), but they didn't do this. I didn't push because I wanted them gone. They dinged the waterline and didn't say anything about it, and seemed angry that I noticed.
 <br>
