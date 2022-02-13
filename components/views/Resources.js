@@ -7,7 +7,7 @@ export default () => html`
       <div id="res1">
       <br><br><br><br>
         <strong><span>Family WatchDog Offender Search</span></strong>
-        <br><br><br>
+        <br><br>
         <p><h3>
           <strong><span>
           This is where you can take a closer look into the person you are
