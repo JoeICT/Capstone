@@ -51,7 +51,7 @@ I've never left negative feedback on any review site because I think those sites
         </p></span></div>
         <div class="resimg"></div>
 
-      <div id="res3"><h2><strong><span>What to look for in a contractor</span></strong></h2>
+      <div id="res3"><h2><strong><span>What do I look for in a contractor?</span></strong></h2>
         <p>
           One of the first things to ask for is if they are licensed and if they have general liability and workers comp insurance. Its also a good idea to ask for photos of previous work they have done. If the job is your looking to have them do is no small task you may want to ask if they can provide any references. References can put your mind a little more at ease as you will have spoken to some of there previous customers and you will have a good idea of the type of person they are and the type of work they produce.
           <br><br>
